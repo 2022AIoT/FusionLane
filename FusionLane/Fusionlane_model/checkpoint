@@ -1,0 +1,3 @@
+model_checkpoint_path: "model.ckpt-115544"
+all_model_checkpoint_paths: "model.ckpt-Fusionlane"
+all_model_checkpoint_paths: "model.ckpt-115544"

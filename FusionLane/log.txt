@@ -1,0 +1,1043 @@
+INFO:tensorflow:Calling model_fn.
+[None, 321, 321, 1]
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+2022-06-30 01:36:14.092096: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2022-06-30 01:36:14.092147: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-06-30 01:36:14.092157: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0
+2022-06-30 01:36:14.092188: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N
+2022-06-30 01:36:14.092282: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10240 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:b2:00.0, compute capability: 7.5)
+INFO:tensorflow:Restoring parameters from ./my_model/model.ckpt-77220
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 77220 into ./my_model/model.ckpt.
+INFO:tensorflow:cross_entropy = 0.022536105, learning_rate = 3.009123e-06, train_mean_iou = 0.57292145, train_px_accuracy = 0.9980339
+INFO:tensorflow:loss = 0.112557895, step = 77220
+INFO:tensorflow:cross_entropy = 0.019529093, learning_rate = 3.0081317e-06, train_mean_iou = 0.781241, train_px_accuracy = 0.9980996 (10.959 sec)
+INFO:tensorflow:cross_entropy = 0.0035949277, learning_rate = 3.0071399e-06, train_mean_iou = 0.78484565, train_px_accuracy = 0.9985975 (3.272 sec)
+INFO:tensorflow:cross_entropy = 0.0087562585, learning_rate = 3.006149e-06, train_mean_iou = 0.7930196, train_px_accuracy = 0.9986971 (3.286 sec)
+INFO:tensorflow:cross_entropy = 0.013322022, learning_rate = 3.0051572e-06, train_mean_iou = 0.80034703, train_px_accuracy = 0.9986688 (3.298 sec)
+INFO:tensorflow:cross_entropy = 0.005266607, learning_rate = 3.0041658e-06, train_mean_iou = 0.79780376, train_px_accuracy = 0.9987879 (3.301 sec)
+INFO:tensorflow:cross_entropy = 0.008192708, learning_rate = 3.003174e-06, train_mean_iou = 0.80727386, train_px_accuracy = 0.9988195 (3.302 sec)
+INFO:tensorflow:cross_entropy = 0.0068651657, learning_rate = 3.002183e-06, train_mean_iou = 0.80729145, train_px_accuracy = 0.9988533 (3.304 sec)
+INFO:tensorflow:cross_entropy = 0.012471203, learning_rate = 3.001191e-06, train_mean_iou = 0.8090041, train_px_accuracy = 0.9988262 (3.311 sec)
+INFO:tensorflow:cross_entropy = 0.0034962976, learning_rate = 3.0001993e-06, train_mean_iou = 0.81143993, train_px_accuracy = 0.99890286 (3.293 sec)
+INFO:tensorflow:global_step/sec: 2.4206
+INFO:tensorflow:cross_entropy = 0.0064193434, learning_rate = 2.9992077e-06, train_mean_iou = 0.81052506, train_px_accuracy = 0.9989138 (3.988 sec)
+INFO:tensorflow:loss = 0.09634761, step = 77320 (41.313 sec)
+INFO:tensorflow:cross_entropy = 0.020114057, learning_rate = 2.9982157e-06, train_mean_iou = 0.8118953, train_px_accuracy = 0.9987916 (3.311 sec)
+INFO:tensorflow:cross_entropy = 0.0059958156, learning_rate = 2.9972239e-06, train_mean_iou = 0.8126177, train_px_accuracy = 0.9988333 (3.307 sec)
+INFO:tensorflow:cross_entropy = 0.003406581, learning_rate = 2.996232e-06, train_mean_iou = 0.8128797, train_px_accuracy = 0.998891 (3.326 sec)
+INFO:tensorflow:cross_entropy = 0.0076532103, learning_rate = 2.9952403e-06, train_mean_iou = 0.8161177, train_px_accuracy = 0.9988999 (3.332 sec)
+INFO:tensorflow:cross_entropy = 0.010820193, learning_rate = 2.994248e-06, train_mean_iou = 0.81764495, train_px_accuracy = 0.99888104 (3.338 sec)
+INFO:tensorflow:cross_entropy = 0.0029511494, learning_rate = 2.9932562e-06, train_mean_iou = 0.81902134, train_px_accuracy = 0.9989238 (3.321 sec)
+INFO:tensorflow:cross_entropy = 0.007284998, learning_rate = 2.9922644e-06, train_mean_iou = 0.81996685, train_px_accuracy = 0.9989294 (3.340 sec)
+INFO:tensorflow:cross_entropy = 0.007437875, learning_rate = 2.9912721e-06, train_mean_iou = 0.8208941, train_px_accuracy = 0.9989344 (3.329 sec)
+INFO:tensorflow:cross_entropy = 0.0051704166, learning_rate = 2.99028e-06, train_mean_iou = 0.8234897, train_px_accuracy = 0.9989544 (3.312 sec)
+INFO:tensorflow:global_step/sec: 2.94297
+INFO:tensorflow:cross_entropy = 0.006012301, learning_rate = 2.9892874e-06, train_mean_iou = 0.82359827, train_px_accuracy = 0.99896914 (4.063 sec)
+INFO:tensorflow:loss = 0.09584492, step = 77420 (33.979 sec)
+INFO:tensorflow:cross_entropy = 0.006998578, learning_rate = 2.9882956e-06, train_mean_iou = 0.8239373, train_px_accuracy = 0.9989707 (3.336 sec)
+INFO:tensorflow:cross_entropy = 0.005980887, learning_rate = 2.9873033e-06, train_mean_iou = 0.8244227, train_px_accuracy = 0.9989844 (3.337 sec)
+INFO:tensorflow:cross_entropy = 0.0032152014, learning_rate = 2.986311e-06, train_mean_iou = 0.8242881, train_px_accuracy = 0.9990092 (3.331 sec)
+INFO:tensorflow:cross_entropy = 0.009802136, learning_rate = 2.9853184e-06, train_mean_iou = 0.8274117, train_px_accuracy = 0.99899966 (3.332 sec)
+INFO:tensorflow:cross_entropy = 0.0070865178, learning_rate = 2.9843266e-06, train_mean_iou = 0.8273612, train_px_accuracy = 0.99900115 (3.334 sec)
+INFO:tensorflow:cross_entropy = 0.012685316, learning_rate = 2.9833338e-06, train_mean_iou = 0.8295049, train_px_accuracy = 0.99898744 (3.343 sec)
+INFO:tensorflow:cross_entropy = 0.0032414005, learning_rate = 2.9823414e-06, train_mean_iou = 0.82956684, train_px_accuracy = 0.9990127 (3.336 sec)
+INFO:tensorflow:cross_entropy = 0.005507817, learning_rate = 2.9813496e-06, train_mean_iou = 0.83001596, train_px_accuracy = 0.99901897 (3.330 sec)
+INFO:tensorflow:cross_entropy = 0.010989099, learning_rate = 2.9803566e-06, train_mean_iou = 0.8319705, train_px_accuracy = 0.9990013 (3.338 sec)
+INFO:tensorflow:global_step/sec: 2.94014
+INFO:tensorflow:cross_entropy = 0.004866989, learning_rate = 2.9793637e-06, train_mean_iou = 0.8322528, train_px_accuracy = 0.9990163 (3.994 sec)
+INFO:tensorflow:loss = 0.09460277, step = 77520 (34.012 sec)
+INFO:tensorflow:cross_entropy = 0.0059534297, learning_rate = 2.9783712e-06, train_mean_iou = 0.8324103, train_px_accuracy = 0.999027 (3.331 sec)
+INFO:tensorflow:cross_entropy = 0.0053069904, learning_rate = 2.9773787e-06, train_mean_iou = 0.8325003, train_px_accuracy = 0.9990359 (3.340 sec)
+INFO:tensorflow:cross_entropy = 0.008558477, learning_rate = 2.9763858e-06, train_mean_iou = 0.83344394, train_px_accuracy = 0.99903226 (3.335 sec)
+INFO:tensorflow:cross_entropy = 0.0028805598, learning_rate = 2.975393e-06, train_mean_iou = 0.8337255, train_px_accuracy = 0.9990475 (3.333 sec)
+INFO:tensorflow:cross_entropy = 0.0056825904, learning_rate = 2.9744003e-06, train_mean_iou = 0.833697, train_px_accuracy = 0.9990517 (3.335 sec)
+INFO:tensorflow:cross_entropy = 0.013585485, learning_rate = 2.9734074e-06, train_mean_iou = 0.83361137, train_px_accuracy = 0.99903667 (3.927 sec)
+INFO:tensorflow:cross_entropy = 0.0052643586, learning_rate = 2.9724142e-06, train_mean_iou = 0.834432, train_px_accuracy = 0.9990468 (3.341 sec)
+INFO:tensorflow:cross_entropy = 0.0043305648, learning_rate = 2.9714213e-06, train_mean_iou = 0.83399457, train_px_accuracy = 0.99905545 (3.344 sec)
+INFO:tensorflow:cross_entropy = 0.006883964, learning_rate = 2.9704286e-06, train_mean_iou = 0.83493847, train_px_accuracy = 0.99905246 (3.348 sec)
+INFO:tensorflow:global_step/sec: 2.87925
+INFO:tensorflow:cross_entropy = 0.009503773, learning_rate = 2.9694352e-06, train_mean_iou = 0.83561844, train_px_accuracy = 0.99904615 (4.098 sec)
+INFO:tensorflow:loss = 0.09914283, step = 77620 (34.731 sec)
+INFO:tensorflow:cross_entropy = 0.003018899, learning_rate = 2.968442e-06, train_mean_iou = 0.83627266, train_px_accuracy = 0.99906105 (3.341 sec)
+INFO:tensorflow:cross_entropy = 0.006536281, learning_rate = 2.9674488e-06, train_mean_iou = 0.83687645, train_px_accuracy = 0.99906385 (3.345 sec)
+INFO:tensorflow:cross_entropy = 0.006497059, learning_rate = 2.966456e-06, train_mean_iou = 0.83721787, train_px_accuracy = 0.9990636 (3.357 sec)
+INFO:tensorflow:cross_entropy = 0.0043466394, learning_rate = 2.9654625e-06, train_mean_iou = 0.83833313, train_px_accuracy = 0.99907273 (3.329 sec)
+INFO:tensorflow:cross_entropy = 0.0049917395, learning_rate = 2.9644693e-06, train_mean_iou = 0.8385317, train_px_accuracy = 0.99908257 (3.339 sec)
+INFO:tensorflow:cross_entropy = 0.0052976315, learning_rate = 2.9634764e-06, train_mean_iou = 0.83927935, train_px_accuracy = 0.9990873 (3.335 sec)
+INFO:tensorflow:cross_entropy = 0.0047588395, learning_rate = 2.9624825e-06, train_mean_iou = 0.839447, train_px_accuracy = 0.99909264 (3.345 sec)
+INFO:tensorflow:cross_entropy = 0.003408542, learning_rate = 2.9614894e-06, train_mean_iou = 0.8393594, train_px_accuracy = 0.99910283 (3.340 sec)
+INFO:tensorflow:cross_entropy = 0.008027687, learning_rate = 2.9604955e-06, train_mean_iou = 0.84091103, train_px_accuracy = 0.99910164 (3.330 sec)
+INFO:tensorflow:global_step/sec: 2.93229
+INFO:tensorflow:cross_entropy = 0.0059649926, learning_rate = 2.9595024e-06, train_mean_iou = 0.84093297, train_px_accuracy = 0.9991056 (4.042 sec)
+INFO:tensorflow:loss = 0.095506676, step = 77720 (34.104 sec)
+INFO:tensorflow:cross_entropy = 0.012014597, learning_rate = 2.958509e-06, train_mean_iou = 0.8423787, train_px_accuracy = 0.9990959 (3.343 sec)
+INFO:tensorflow:cross_entropy = 0.0031723296, learning_rate = 2.9575149e-06, train_mean_iou = 0.8424832, train_px_accuracy = 0.9991063 (3.340 sec)
+INFO:tensorflow:cross_entropy = 0.005721977, learning_rate = 2.9565217e-06, train_mean_iou = 0.8424813, train_px_accuracy = 0.9991063 (3.358 sec)
+INFO:tensorflow:cross_entropy = 0.011872001, learning_rate = 2.9555279e-06, train_mean_iou = 0.84357363, train_px_accuracy = 0.9990977 (3.352 sec)
+INFO:tensorflow:cross_entropy = 0.0050646947, learning_rate = 2.9545342e-06, train_mean_iou = 0.8439773, train_px_accuracy = 0.99910504 (3.353 sec)
+INFO:tensorflow:cross_entropy = 0.004100902, learning_rate = 2.9535402e-06, train_mean_iou = 0.84406775, train_px_accuracy = 0.99911207 (3.356 sec)
+INFO:tensorflow:cross_entropy = 0.0046787886, learning_rate = 2.952547e-06, train_mean_iou = 0.8440758, train_px_accuracy = 0.9991158 (3.341 sec)
+INFO:tensorflow:cross_entropy = 0.006786954, learning_rate = 2.951553e-06, train_mean_iou = 0.84442055, train_px_accuracy = 0.9991142 (3.351 sec)
+INFO:tensorflow:cross_entropy = 0.0025187102, learning_rate = 2.950559e-06, train_mean_iou = 0.84486544, train_px_accuracy = 0.9991234 (3.349 sec)
+INFO:tensorflow:global_step/sec: 2.92178
+INFO:tensorflow:cross_entropy = 0.005695181, learning_rate = 2.9495654e-06, train_mean_iou = 0.8450204, train_px_accuracy = 0.99912757 (4.080 sec)
+INFO:tensorflow:loss = 0.09513916, step = 77820 (34.225 sec)
+INFO:tensorflow:cross_entropy = 0.009790592, learning_rate = 2.9485711e-06, train_mean_iou = 0.8440094, train_px_accuracy = 0.9991189 (3.342 sec)
+INFO:tensorflow:cross_entropy = 0.005890935, learning_rate = 2.947577e-06, train_mean_iou = 0.8436476, train_px_accuracy = 0.99912083 (3.351 sec)
+INFO:tensorflow:cross_entropy = 0.005147408, learning_rate = 2.9465828e-06, train_mean_iou = 0.8433375, train_px_accuracy = 0.9991252 (3.346 sec)
+INFO:tensorflow:cross_entropy = 0.006314164, learning_rate = 2.9455891e-06, train_mean_iou = 0.84417945, train_px_accuracy = 0.9991273 (3.358 sec)
+INFO:tensorflow:cross_entropy = 0.007835046, learning_rate = 2.9445946e-06, train_mean_iou = 0.8449865, train_px_accuracy = 0.99912584 (3.349 sec)
+INFO:tensorflow:cross_entropy = 0.0027898492, learning_rate = 2.9436005e-06, train_mean_iou = 0.84525806, train_px_accuracy = 0.9991331 (3.343 sec)
+INFO:tensorflow:cross_entropy = 0.0074972073, learning_rate = 2.942606e-06, train_mean_iou = 0.8454272, train_px_accuracy = 0.99913013 (3.353 sec)
+INFO:tensorflow:cross_entropy = 0.0062567974, learning_rate = 2.941612e-06, train_mean_iou = 0.84552807, train_px_accuracy = 0.99913085 (3.342 sec)
+INFO:tensorflow:cross_entropy = 0.0041701547, learning_rate = 2.9406176e-06, train_mean_iou = 0.846486, train_px_accuracy = 0.9991366 (3.354 sec)
+INFO:tensorflow:global_step/sec: 2.92792
+INFO:tensorflow:cross_entropy = 0.0033084753, learning_rate = 2.939623e-06, train_mean_iou = 0.84666646, train_px_accuracy = 0.99914354 (4.016 sec)
+INFO:tensorflow:loss = 0.0926547, step = 77920 (34.154 sec)
+INFO:tensorflow:cross_entropy = 0.004712931, learning_rate = 2.938629e-06, train_mean_iou = 0.847063, train_px_accuracy = 0.9991447 (3.330 sec)
+INFO:tensorflow:cross_entropy = 0.0053444253, learning_rate = 2.9376345e-06, train_mean_iou = 0.84688723, train_px_accuracy = 0.9991452 (3.764 sec)
+INFO:tensorflow:cross_entropy = 0.004758649, learning_rate = 2.9366395e-06, train_mean_iou = 0.8470027, train_px_accuracy = 0.9991498 (3.346 sec)
+INFO:tensorflow:cross_entropy = 0.0074110664, learning_rate = 2.935645e-06, train_mean_iou = 0.84781235, train_px_accuracy = 0.99915236 (3.348 sec)
+INFO:tensorflow:cross_entropy = 0.004736729, learning_rate = 2.9346506e-06, train_mean_iou = 0.84779304, train_px_accuracy = 0.9991542 (3.343 sec)
+INFO:tensorflow:cross_entropy = 0.01307636, learning_rate = 2.9336559e-06, train_mean_iou = 0.8478222, train_px_accuracy = 0.99914336 (3.355 sec)
+INFO:tensorflow:cross_entropy = 0.0028940607, learning_rate = 2.9326611e-06, train_mean_iou = 0.8479108, train_px_accuracy = 0.9991489 (3.349 sec)
+INFO:tensorflow:cross_entropy = 0.00574307, learning_rate = 2.9316668e-06, train_mean_iou = 0.8478303, train_px_accuracy = 0.9991499 (3.341 sec)
+INFO:tensorflow:cross_entropy = 0.0140949255, learning_rate = 2.9306718e-06, train_mean_iou = 0.84864837, train_px_accuracy = 0.9991412 (3.308 sec)
+INFO:tensorflow:global_step/sec: 2.8965
+INFO:tensorflow:cross_entropy = 0.005429305, learning_rate = 2.9296766e-06, train_mean_iou = 0.8491004, train_px_accuracy = 0.99914515 (4.041 sec)
+INFO:tensorflow:loss = 0.09467802, step = 78020 (34.525 sec)
+INFO:tensorflow:cross_entropy = 0.004008451, learning_rate = 2.9286819e-06, train_mean_iou = 0.8488959, train_px_accuracy = 0.9991476 (3.337 sec)
+INFO:tensorflow:cross_entropy = 0.0044997423, learning_rate = 2.927687e-06, train_mean_iou = 0.8489046, train_px_accuracy = 0.9991499 (3.333 sec)
+INFO:tensorflow:cross_entropy = 0.0066234083, learning_rate = 2.9266919e-06, train_mean_iou = 0.84922206, train_px_accuracy = 0.9991506 (3.338 sec)
+INFO:tensorflow:cross_entropy = 0.0029613199, learning_rate = 2.925697e-06, train_mean_iou = 0.8494211, train_px_accuracy = 0.999156 (3.338 sec)
+INFO:tensorflow:cross_entropy = 0.005866729, learning_rate = 2.9247014e-06, train_mean_iou = 0.84945107, train_px_accuracy = 0.99915683 (3.353 sec)
+INFO:tensorflow:cross_entropy = 0.007960369, learning_rate = 2.9237074e-06, train_mean_iou = 0.8493161, train_px_accuracy = 0.9991524 (3.346 sec)
+INFO:tensorflow:cross_entropy = 0.006463711, learning_rate = 2.9227115e-06, train_mean_iou = 0.8496299, train_px_accuracy = 0.99915403 (3.356 sec)
+INFO:tensorflow:cross_entropy = 0.0062142615, learning_rate = 2.9217165e-06, train_mean_iou = 0.8494061, train_px_accuracy = 0.99915624 (3.347 sec)
+INFO:tensorflow:cross_entropy = 0.0060995175, learning_rate = 2.9207215e-06, train_mean_iou = 0.8496719, train_px_accuracy = 0.9991571 (3.337 sec)
+INFO:tensorflow:global_step/sec: 2.93042
+INFO:tensorflow:cross_entropy = 0.0075520445, learning_rate = 2.919726e-06, train_mean_iou = 0.8498508, train_px_accuracy = 0.9991543 (4.040 sec)
+INFO:tensorflow:loss = 0.09670272, step = 78120 (34.126 sec)
+INFO:tensorflow:cross_entropy = 0.0064503774, learning_rate = 2.9187306e-06, train_mean_iou = 0.849491, train_px_accuracy = 0.9991567 (3.354 sec)
+INFO:tensorflow:cross_entropy = 0.009651848, learning_rate = 2.917735e-06, train_mean_iou = 0.84956795, train_px_accuracy = 0.99915373 (3.336 sec)
+INFO:tensorflow:cross_entropy = 0.007019823, learning_rate = 2.9167397e-06, train_mean_iou = 0.8496829, train_px_accuracy = 0.99915427 (3.334 sec)
+INFO:tensorflow:cross_entropy = 0.006134891, learning_rate = 2.9157443e-06, train_mean_iou = 0.85024846, train_px_accuracy = 0.9991556 (3.354 sec)
+INFO:tensorflow:cross_entropy = 0.0029254463, learning_rate = 2.9147488e-06, train_mean_iou = 0.8503028, train_px_accuracy = 0.99916077 (3.334 sec)
+INFO:tensorflow:cross_entropy = 0.0057774126, learning_rate = 2.9137534e-06, train_mean_iou = 0.850391, train_px_accuracy = 0.99915993 (3.345 sec)
+INFO:tensorflow:cross_entropy = 0.006863887, learning_rate = 2.9127577e-06, train_mean_iou = 0.850605, train_px_accuracy = 0.9991597 (3.343 sec)
+INFO:tensorflow:cross_entropy = 0.006077881, learning_rate = 2.9117618e-06, train_mean_iou = 0.8506509, train_px_accuracy = 0.9991622 (3.338 sec)
+INFO:tensorflow:cross_entropy = 0.0074231336, learning_rate = 2.9107657e-06, train_mean_iou = 0.85098034, train_px_accuracy = 0.9991622 (3.350 sec)
+INFO:tensorflow:global_step/sec: 2.92712
+INFO:tensorflow:cross_entropy = 0.0051070782, learning_rate = 2.9097707e-06, train_mean_iou = 0.85087013, train_px_accuracy = 0.9991627 (4.074 sec)
+INFO:tensorflow:loss = 0.09415992, step = 78220 (34.163 sec)
+INFO:tensorflow:cross_entropy = 0.013029956, learning_rate = 2.9087746e-06, train_mean_iou = 0.8510062, train_px_accuracy = 0.9991551 (3.337 sec)
+INFO:tensorflow:cross_entropy = 0.00371398, learning_rate = 2.907779e-06, train_mean_iou = 0.85114944, train_px_accuracy = 0.9991599 (3.337 sec)
+INFO:tensorflow:cross_entropy = 0.0066406177, learning_rate = 2.9067826e-06, train_mean_iou = 0.85104245, train_px_accuracy = 0.99916005 (3.347 sec)
+INFO:tensorflow:cross_entropy = 0.017191768, learning_rate = 2.905787e-06, train_mean_iou = 0.8507252, train_px_accuracy = 0.99914676 (3.346 sec)
+INFO:tensorflow:cross_entropy = 0.005555768, learning_rate = 2.9047908e-06, train_mean_iou = 0.8508505, train_px_accuracy = 0.9991479 (3.351 sec)
+INFO:tensorflow:cross_entropy = 0.003932076, learning_rate = 2.9037947e-06, train_mean_iou = 0.8508016, train_px_accuracy = 0.99915075 (3.335 sec)
+INFO:tensorflow:cross_entropy = 0.005354752, learning_rate = 2.902799e-06, train_mean_iou = 0.85083073, train_px_accuracy = 0.9991516 (3.331 sec)
+INFO:tensorflow:cross_entropy = 0.007835334, learning_rate = 2.9018026e-06, train_mean_iou = 0.85092485, train_px_accuracy = 0.9991503 (3.344 sec)
+INFO:tensorflow:cross_entropy = 0.0032782904, learning_rate = 2.9008067e-06, train_mean_iou = 0.8509105, train_px_accuracy = 0.99915373 (3.340 sec)
+INFO:tensorflow:global_step/sec: 2.93325
+INFO:tensorflow:cross_entropy = 0.0072076623, learning_rate = 2.8998102e-06, train_mean_iou = 0.8508225, train_px_accuracy = 0.9991516 (4.024 sec)
+INFO:tensorflow:loss = 0.09616308, step = 78320 (34.092 sec)
+INFO:tensorflow:cross_entropy = 0.008858367, learning_rate = 2.8988143e-06, train_mean_iou = 0.85073227, train_px_accuracy = 0.9991497 (3.335 sec)
+INFO:tensorflow:cross_entropy = 0.007049606, learning_rate = 2.8978181e-06, train_mean_iou = 0.85092133, train_px_accuracy = 0.9991512 (3.344 sec)
+INFO:tensorflow:cross_entropy = 0.0061578, learning_rate = 2.8968216e-06, train_mean_iou = 0.850874, train_px_accuracy = 0.9991523 (3.346 sec)
+INFO:tensorflow:cross_entropy = 0.0063373554, learning_rate = 2.8958254e-06, train_mean_iou = 0.85084456, train_px_accuracy = 0.9991519 (3.331 sec)
+INFO:tensorflow:cross_entropy = 0.0074065956, learning_rate = 2.8948289e-06, train_mean_iou = 0.8509245, train_px_accuracy = 0.99915016 (3.342 sec)
+INFO:tensorflow:cross_entropy = 0.0077819335, learning_rate = 2.8938323e-06, train_mean_iou = 0.85081196, train_px_accuracy = 0.999151 (3.323 sec)
+INFO:tensorflow:cross_entropy = 0.012110635, learning_rate = 2.8928355e-06, train_mean_iou = 0.8512249, train_px_accuracy = 0.99914813 (3.347 sec)
+INFO:tensorflow:cross_entropy = 0.008472594, learning_rate = 2.8918394e-06, train_mean_iou = 0.8511516, train_px_accuracy = 0.9991462 (3.346 sec)
+INFO:tensorflow:cross_entropy = 0.009926806, learning_rate = 2.8908426e-06, train_mean_iou = 0.85147893, train_px_accuracy = 0.99914306 (3.338 sec)
+INFO:tensorflow:global_step/sec: 2.92951
+INFO:tensorflow:cross_entropy = 0.0030256629, learning_rate = 2.8898455e-06, train_mean_iou = 0.85149765, train_px_accuracy = 0.9991468 (4.084 sec)
+INFO:tensorflow:loss = 0.09188245, step = 78420 (34.135 sec)
+INFO:tensorflow:cross_entropy = 0.0060596582, learning_rate = 2.8888487e-06, train_mean_iou = 0.8517026, train_px_accuracy = 0.9991476 (3.330 sec)
+INFO:tensorflow:cross_entropy = 0.010069839, learning_rate = 2.8878528e-06, train_mean_iou = 0.8517346, train_px_accuracy = 0.99914545 (3.336 sec)
+INFO:tensorflow:cross_entropy = 0.0061149923, learning_rate = 2.8868556e-06, train_mean_iou = 0.8518133, train_px_accuracy = 0.9991463 (3.336 sec)
+INFO:tensorflow:cross_entropy = 0.0073080678, learning_rate = 2.8858587e-06, train_mean_iou = 0.851603, train_px_accuracy = 0.99914485 (3.338 sec)
+INFO:tensorflow:cross_entropy = 0.00527713, learning_rate = 2.8848622e-06, train_mean_iou = 0.8515112, train_px_accuracy = 0.9991448 (3.340 sec)
+INFO:tensorflow:cross_entropy = 0.011556199, learning_rate = 2.883865e-06, train_mean_iou = 0.85162055, train_px_accuracy = 0.9991405 (3.343 sec)
+INFO:tensorflow:cross_entropy = 0.0032972463, learning_rate = 2.8828679e-06, train_mean_iou = 0.8516862, train_px_accuracy = 0.99914354 (3.337 sec)
+INFO:tensorflow:cross_entropy = 0.0074184584, learning_rate = 2.8818706e-06, train_mean_iou = 0.85155296, train_px_accuracy = 0.99914193 (3.351 sec)
+INFO:tensorflow:cross_entropy = 0.020608636, learning_rate = 2.880874e-06, train_mean_iou = 0.851058, train_px_accuracy = 0.99912864 (3.347 sec)
+INFO:tensorflow:global_step/sec: 2.93826
+INFO:tensorflow:cross_entropy = 0.0062450655, learning_rate = 2.8798765e-06, train_mean_iou = 0.8512171, train_px_accuracy = 0.9991299 (3.977 sec)
+INFO:tensorflow:loss = 0.09500612, step = 78520 (34.034 sec)
+INFO:tensorflow:cross_entropy = 0.0049278433, learning_rate = 2.8788793e-06, train_mean_iou = 0.8511922, train_px_accuracy = 0.9991326 (3.322 sec)
+INFO:tensorflow:cross_entropy = 0.007310853, learning_rate = 2.8778823e-06, train_mean_iou = 0.85114634, train_px_accuracy = 0.99913174 (3.356 sec)
+INFO:tensorflow:cross_entropy = 0.0102057755, learning_rate = 2.8768852e-06, train_mean_iou = 0.85098237, train_px_accuracy = 0.99912715 (3.337 sec)
+INFO:tensorflow:cross_entropy = 0.004737193, learning_rate = 2.8758875e-06, train_mean_iou = 0.85096246, train_px_accuracy = 0.9991295 (3.347 sec)
+INFO:tensorflow:cross_entropy = 0.008673547, learning_rate = 2.87489e-06, train_mean_iou = 0.85094136, train_px_accuracy = 0.9991276 (3.337 sec)
+INFO:tensorflow:cross_entropy = 0.009302996, learning_rate = 2.8738932e-06, train_mean_iou = 0.8509765, train_px_accuracy = 0.9991263 (3.357 sec)
+INFO:tensorflow:cross_entropy = 0.0074815857, learning_rate = 2.8728955e-06, train_mean_iou = 0.85120726, train_px_accuracy = 0.9991259 (3.345 sec)
+INFO:tensorflow:cross_entropy = 0.0066057188, learning_rate = 2.8718978e-06, train_mean_iou = 0.85111284, train_px_accuracy = 0.9991262 (3.352 sec)
+INFO:tensorflow:cross_entropy = 0.008746158, learning_rate = 2.8709005e-06, train_mean_iou = 0.8506027, train_px_accuracy = 0.99912435 (3.343 sec)
+INFO:tensorflow:global_step/sec: 2.93295
+INFO:tensorflow:cross_entropy = 0.007092616, learning_rate = 2.8699028e-06, train_mean_iou = 0.8506843, train_px_accuracy = 0.9991242 (3.999 sec)
+INFO:tensorflow:loss = 0.09575972, step = 78620 (34.095 sec)
+INFO:tensorflow:cross_entropy = 0.0075618057, learning_rate = 2.868905e-06, train_mean_iou = 0.85069984, train_px_accuracy = 0.9991251 (3.334 sec)
+INFO:tensorflow:cross_entropy = 0.014009274, learning_rate = 2.8679071e-06, train_mean_iou = 0.8504954, train_px_accuracy = 0.99911994 (3.357 sec)
+INFO:tensorflow:Saving checkpoints for 78650 into ./my_model/model.ckpt.
+INFO:tensorflow:Loss for final step: 0.094952956.
+INFO:tensorflow:Start evaluation.
+INFO:tensorflow:-------------------
+INFO:tensorflow:Calling model_fn.
+[None, 321, 321, 1]
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2022-06-29-17:45:43
+INFO:tensorflow:Graph was finalized.
+2022-06-30 01:45:44.302730: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2022-06-30 01:45:44.302787: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-06-30 01:45:44.302799: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0
+2022-06-30 01:45:44.302816: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N
+2022-06-30 01:45:44.302915: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10240 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:b2:00.0, compute capability: 7.5)
+INFO:tensorflow:Restoring parameters from ./my_model/model.ckpt-78650
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2022-06-29-17:45:47
+INFO:tensorflow:Saving dict for global step 78650: global_step = 78650, loss = 0.105092525, mean_iou = 0.7518939, px_accuracy = 0.9989771
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 78650: ./my_model/model.ckpt-78650
+{'loss': 0.105092525, 'mean_iou': 0.7518939, 'px_accuracy': 0.9989771, 'global_step': 78650}
+INFO:tensorflow:Start training.
+INFO:tensorflow:-------------------
+INFO:tensorflow:Calling model_fn.
+[None, 321, 321, 1]
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+2022-06-30 01:45:57.733228: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2022-06-30 01:45:57.733292: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-06-30 01:45:57.733302: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0
+2022-06-30 01:45:57.733312: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N
+2022-06-30 01:45:57.733405: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10240 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:b2:00.0, compute capability: 7.5)
+INFO:tensorflow:Restoring parameters from ./my_model/model.ckpt-78650
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 78650 into ./my_model/model.ckpt.
+INFO:tensorflow:cross_entropy = 0.014698028, learning_rate = 2.8669097e-06, train_mean_iou = 0.5921594, train_px_accuracy = 0.99857205
+INFO:tensorflow:loss = 0.10333904, step = 78650
+INFO:tensorflow:cross_entropy = 0.017086433, learning_rate = 2.8659117e-06, train_mean_iou = 0.8234903, train_px_accuracy = 0.9984893 (10.967 sec)
+INFO:tensorflow:cross_entropy = 0.0032429926, learning_rate = 2.864914e-06, train_mean_iou = 0.82031953, train_px_accuracy = 0.998861 (3.280 sec)
+INFO:tensorflow:cross_entropy = 0.008298028, learning_rate = 2.8639158e-06, train_mean_iou = 0.8216594, train_px_accuracy = 0.9988482 (3.292 sec)
+INFO:tensorflow:cross_entropy = 0.01235536, learning_rate = 2.8629186e-06, train_mean_iou = 0.82207966, train_px_accuracy = 0.99878263 (3.283 sec)
+INFO:tensorflow:cross_entropy = 0.00474438, learning_rate = 2.8619202e-06, train_mean_iou = 0.82263553, train_px_accuracy = 0.99889374 (3.304 sec)
+INFO:tensorflow:cross_entropy = 0.0076944004, learning_rate = 2.8609222e-06, train_mean_iou = 0.8254115, train_px_accuracy = 0.99892926 (3.304 sec)
+INFO:tensorflow:cross_entropy = 0.006845357, learning_rate = 2.8599245e-06, train_mean_iou = 0.82446086, train_px_accuracy = 0.99893564 (3.310 sec)
+INFO:tensorflow:cross_entropy = 0.011680552, learning_rate = 2.858926e-06, train_mean_iou = 0.8252776, train_px_accuracy = 0.9988843 (3.324 sec)
+INFO:tensorflow:cross_entropy = 0.0031879316, learning_rate = 2.8579277e-06, train_mean_iou = 0.8272565, train_px_accuracy = 0.99895245 (3.304 sec)
+INFO:tensorflow:global_step/sec: 2.41842
+INFO:tensorflow:cross_entropy = 0.007019532, learning_rate = 2.8569293e-06, train_mean_iou = 0.8270006, train_px_accuracy = 0.9989734 (3.984 sec)
+INFO:tensorflow:loss = 0.09556969, step = 78750 (41.350 sec)
+INFO:tensorflow:cross_entropy = 0.02033576, learning_rate = 2.8559316e-06, train_mean_iou = 0.8243491, train_px_accuracy = 0.99884176 (3.323 sec)
+INFO:tensorflow:cross_entropy = 0.0065391944, learning_rate = 2.8549332e-06, train_mean_iou = 0.8239565, train_px_accuracy = 0.99887365 (3.322 sec)
+INFO:tensorflow:cross_entropy = 0.0036658945, learning_rate = 2.8539348e-06, train_mean_iou = 0.8235645, train_px_accuracy = 0.9989132 (3.309 sec)
+INFO:tensorflow:cross_entropy = 0.008864334, learning_rate = 2.8529366e-06, train_mean_iou = 0.82561934, train_px_accuracy = 0.9989192 (3.339 sec)
+INFO:tensorflow:cross_entropy = 0.011019166, learning_rate = 2.8519382e-06, train_mean_iou = 0.8264483, train_px_accuracy = 0.9989028 (3.328 sec)
+INFO:tensorflow:cross_entropy = 0.0028386877, learning_rate = 2.8509394e-06, train_mean_iou = 0.82758397, train_px_accuracy = 0.9989442 (3.336 sec)
+INFO:tensorflow:cross_entropy = 0.008199202, learning_rate = 2.8499408e-06, train_mean_iou = 0.8278457, train_px_accuracy = 0.99893147 (3.337 sec)
+INFO:tensorflow:cross_entropy = 0.0076928637, learning_rate = 2.8489426e-06, train_mean_iou = 0.8286649, train_px_accuracy = 0.99893314 (3.336 sec)
+INFO:tensorflow:cross_entropy = 0.006103883, learning_rate = 2.8479437e-06, train_mean_iou = 0.8316287, train_px_accuracy = 0.99895805 (3.340 sec)
+INFO:tensorflow:global_step/sec: 2.92937
+INFO:tensorflow:cross_entropy = 0.0062026167, learning_rate = 2.8469449e-06, train_mean_iou = 0.831649, train_px_accuracy = 0.9989759 (4.165 sec)
+INFO:tensorflow:loss = 0.09466336, step = 78850 (34.137 sec)
+INFO:tensorflow:cross_entropy = 0.006877501, learning_rate = 2.845946e-06, train_mean_iou = 0.8320478, train_px_accuracy = 0.9989764 (3.337 sec)
+INFO:tensorflow:cross_entropy = 0.0064339233, learning_rate = 2.8449476e-06, train_mean_iou = 0.8314675, train_px_accuracy = 0.99897844 (3.319 sec)
+INFO:tensorflow:cross_entropy = 0.004011578, learning_rate = 2.8439488e-06, train_mean_iou = 0.83160317, train_px_accuracy = 0.99900335 (3.347 sec)
+INFO:tensorflow:cross_entropy = 0.010622367, learning_rate = 2.8429497e-06, train_mean_iou = 0.83636826, train_px_accuracy = 0.99900347 (3.332 sec)
+INFO:tensorflow:cross_entropy = 0.0072439364, learning_rate = 2.841951e-06, train_mean_iou = 0.83658046, train_px_accuracy = 0.9990073 (3.334 sec)
+INFO:tensorflow:cross_entropy = 0.012991879, learning_rate = 2.8409522e-06, train_mean_iou = 0.83709365, train_px_accuracy = 0.9989842 (3.353 sec)
+INFO:tensorflow:cross_entropy = 0.0023229064, learning_rate = 2.839953e-06, train_mean_iou = 0.8373532, train_px_accuracy = 0.9990089 (3.348 sec)
+INFO:tensorflow:cross_entropy = 0.005630318, learning_rate = 2.8389538e-06, train_mean_iou = 0.8377867, train_px_accuracy = 0.9990173 (3.336 sec)
+INFO:tensorflow:cross_entropy = 0.011643645, learning_rate = 2.837955e-06, train_mean_iou = 0.84011996, train_px_accuracy = 0.99900854 (3.344 sec)
+INFO:tensorflow:global_step/sec: 2.93454
+INFO:tensorflow:cross_entropy = 0.004832034, learning_rate = 2.8369557e-06, train_mean_iou = 0.84060735, train_px_accuracy = 0.999023 (4.026 sec)
+INFO:tensorflow:loss = 0.09320284, step = 78950 (34.077 sec)
+INFO:tensorflow:cross_entropy = 0.005920142, learning_rate = 2.8359561e-06, train_mean_iou = 0.8403279, train_px_accuracy = 0.99902725 (3.350 sec)
+INFO:tensorflow:cross_entropy = 0.0052433023, learning_rate = 2.8349575e-06, train_mean_iou = 0.84028375, train_px_accuracy = 0.9990329 (3.330 sec)
+INFO:tensorflow:cross_entropy = 0.00832055, learning_rate = 2.833958e-06, train_mean_iou = 0.84148896, train_px_accuracy = 0.9990344 (3.340 sec)
+INFO:tensorflow:cross_entropy = 0.0029160008, learning_rate = 2.8329584e-06, train_mean_iou = 0.8422581, train_px_accuracy = 0.9990528 (3.333 sec)
+INFO:tensorflow:cross_entropy = 0.005566117, learning_rate = 2.831959e-06, train_mean_iou = 0.8422331, train_px_accuracy = 0.99905735 (3.347 sec)
+INFO:tensorflow:cross_entropy = 0.01409345, learning_rate = 2.8309598e-06, train_mean_iou = 0.83972394, train_px_accuracy = 0.9990271 (3.751 sec)
+INFO:tensorflow:cross_entropy = 0.0052548805, learning_rate = 2.8299603e-06, train_mean_iou = 0.8400292, train_px_accuracy = 0.99903584 (3.333 sec)
+INFO:tensorflow:cross_entropy = 0.0049326885, learning_rate = 2.8289608e-06, train_mean_iou = 0.8397766, train_px_accuracy = 0.99904877 (3.346 sec)
+INFO:tensorflow:cross_entropy = 0.0071780137, learning_rate = 2.8279608e-06, train_mean_iou = 0.8410026, train_px_accuracy = 0.99905026 (3.337 sec)
+INFO:tensorflow:global_step/sec: 2.889
+INFO:tensorflow:cross_entropy = 0.009937494, learning_rate = 2.8269617e-06, train_mean_iou = 0.84122866, train_px_accuracy = 0.9990405 (4.146 sec)
+INFO:tensorflow:loss = 0.098218136, step = 79050 (34.614 sec)
+INFO:tensorflow:cross_entropy = 0.0026897164, learning_rate = 2.8259617e-06, train_mean_iou = 0.84180766, train_px_accuracy = 0.9990548 (3.345 sec)
+INFO:tensorflow:cross_entropy = 0.007083594, learning_rate = 2.824962e-06, train_mean_iou = 0.8424601, train_px_accuracy = 0.99905354 (3.336 sec)
+INFO:tensorflow:cross_entropy = 0.0064840433, learning_rate = 2.8239626e-06, train_mean_iou = 0.8429449, train_px_accuracy = 0.9990575 (3.338 sec)
+INFO:tensorflow:cross_entropy = 0.004362732, learning_rate = 2.8229626e-06, train_mean_iou = 0.8440339, train_px_accuracy = 0.999066 (3.349 sec)
+INFO:tensorflow:cross_entropy = 0.004255656, learning_rate = 2.8219627e-06, train_mean_iou = 0.8442269, train_px_accuracy = 0.9990748 (3.344 sec)
+INFO:tensorflow:cross_entropy = 0.005972926, learning_rate = 2.8209627e-06, train_mean_iou = 0.8445409, train_px_accuracy = 0.9990742 (3.338 sec)
+INFO:tensorflow:cross_entropy = 0.0047104135, learning_rate = 2.8199631e-06, train_mean_iou = 0.8445706, train_px_accuracy = 0.99907905 (3.342 sec)
+INFO:tensorflow:cross_entropy = 0.005275288, learning_rate = 2.8189627e-06, train_mean_iou = 0.8440383, train_px_accuracy = 0.9990873 (3.346 sec)
+INFO:tensorflow:cross_entropy = 0.007904262, learning_rate = 2.8179627e-06, train_mean_iou = 0.84596306, train_px_accuracy = 0.999088 (3.344 sec)
+INFO:tensorflow:global_step/sec: 2.93341
+INFO:tensorflow:cross_entropy = 0.005748012, learning_rate = 2.816963e-06, train_mean_iou = 0.8458451, train_px_accuracy = 0.99908864 (4.007 sec)
+INFO:tensorflow:loss = 0.09393786, step = 79150 (34.089 sec)
+INFO:tensorflow:cross_entropy = 0.012642778, learning_rate = 2.8159625e-06, train_mean_iou = 0.846865, train_px_accuracy = 0.99907666 (3.335 sec)
+INFO:tensorflow:cross_entropy = 0.002531172, learning_rate = 2.8149625e-06, train_mean_iou = 0.8471055, train_px_accuracy = 0.99908745 (3.339 sec)
+INFO:tensorflow:cross_entropy = 0.005893755, learning_rate = 2.8139618e-06, train_mean_iou = 0.8472037, train_px_accuracy = 0.9990906 (3.365 sec)
+INFO:tensorflow:cross_entropy = 0.012536218, learning_rate = 2.812962e-06, train_mean_iou = 0.8478989, train_px_accuracy = 0.9990794 (3.347 sec)
+INFO:tensorflow:cross_entropy = 0.0057600313, learning_rate = 2.8119614e-06, train_mean_iou = 0.8479928, train_px_accuracy = 0.99908394 (3.342 sec)
+INFO:tensorflow:cross_entropy = 0.004388987, learning_rate = 2.810961e-06, train_mean_iou = 0.84818757, train_px_accuracy = 0.9990898 (3.347 sec)
+INFO:tensorflow:cross_entropy = 0.0047749425, learning_rate = 2.8099603e-06, train_mean_iou = 0.84817463, train_px_accuracy = 0.99909335 (3.348 sec)
+INFO:tensorflow:cross_entropy = 0.0065688863, learning_rate = 2.8089603e-06, train_mean_iou = 0.8486312, train_px_accuracy = 0.99909407 (3.333 sec)
+INFO:tensorflow:cross_entropy = 0.0025254337, learning_rate = 2.8079594e-06, train_mean_iou = 0.84903556, train_px_accuracy = 0.9991039 (3.355 sec)
+INFO:tensorflow:global_step/sec: 2.92614
+INFO:tensorflow:cross_entropy = 0.0058295354, learning_rate = 2.8069587e-06, train_mean_iou = 0.84902245, train_px_accuracy = 0.999104 (4.065 sec)
+INFO:tensorflow:loss = 0.09392868, step = 79250 (34.175 sec)
+INFO:tensorflow:cross_entropy = 0.009821296, learning_rate = 2.8059585e-06, train_mean_iou = 0.8483414, train_px_accuracy = 0.9990957 (3.332 sec)
+INFO:tensorflow:cross_entropy = 0.00539577, learning_rate = 2.8049576e-06, train_mean_iou = 0.848744, train_px_accuracy = 0.99910074 (3.336 sec)
+INFO:tensorflow:cross_entropy = 0.0058229878, learning_rate = 2.8039567e-06, train_mean_iou = 0.84845966, train_px_accuracy = 0.9991067 (3.366 sec)
+INFO:tensorflow:cross_entropy = 0.00628492, learning_rate = 2.8029558e-06, train_mean_iou = 0.8490887, train_px_accuracy = 0.9991078 (3.335 sec)
+INFO:tensorflow:cross_entropy = 0.008192593, learning_rate = 2.8019556e-06, train_mean_iou = 0.84951717, train_px_accuracy = 0.9991035 (3.350 sec)
+INFO:tensorflow:cross_entropy = 0.0031259884, learning_rate = 2.8009547e-06, train_mean_iou = 0.8496935, train_px_accuracy = 0.9991115 (3.326 sec)
+INFO:tensorflow:cross_entropy = 0.0073079695, learning_rate = 2.7999533e-06, train_mean_iou = 0.85033613, train_px_accuracy = 0.9991111 (3.351 sec)
+INFO:tensorflow:cross_entropy = 0.0063035414, learning_rate = 2.798953e-06, train_mean_iou = 0.8506155, train_px_accuracy = 0.9991125 (3.346 sec)
+INFO:tensorflow:cross_entropy = 0.004725081, learning_rate = 2.7979518e-06, train_mean_iou = 0.85142833, train_px_accuracy = 0.99911666 (3.349 sec)
+INFO:tensorflow:global_step/sec: 2.93087
+INFO:tensorflow:cross_entropy = 0.0036452017, learning_rate = 2.7969504e-06, train_mean_iou = 0.85149944, train_px_accuracy = 0.9991233 (4.028 sec)
+INFO:tensorflow:loss = 0.091652706, step = 79350 (34.120 sec)
+INFO:tensorflow:cross_entropy = 0.0052333875, learning_rate = 2.795949e-06, train_mean_iou = 0.85182637, train_px_accuracy = 0.99912405 (3.346 sec)
+INFO:tensorflow:cross_entropy = 0.0054088244, learning_rate = 2.7949484e-06, train_mean_iou = 0.85194314, train_px_accuracy = 0.9991266 (3.387 sec)
+INFO:tensorflow:cross_entropy = 0.006658765, learning_rate = 2.793947e-06, train_mean_iou = 0.85168976, train_px_accuracy = 0.9991299 (3.330 sec)
+INFO:tensorflow:cross_entropy = 0.006914065, learning_rate = 2.7929455e-06, train_mean_iou = 0.85261333, train_px_accuracy = 0.99913037 (3.345 sec)
+INFO:tensorflow:cross_entropy = 0.0049471664, learning_rate = 2.7919443e-06, train_mean_iou = 0.8525877, train_px_accuracy = 0.9991323 (3.350 sec)
+INFO:tensorflow:cross_entropy = 0.012983781, learning_rate = 2.7909432e-06, train_mean_iou = 0.8525815, train_px_accuracy = 0.99912286 (3.333 sec)
+INFO:tensorflow:cross_entropy = 0.0032684403, learning_rate = 2.7899418e-06, train_mean_iou = 0.8526963, train_px_accuracy = 0.99912935 (3.348 sec)
+INFO:tensorflow:cross_entropy = 0.0058881612, learning_rate = 2.78894e-06, train_mean_iou = 0.85270643, train_px_accuracy = 0.9991309 (3.335 sec)
+INFO:tensorflow:cross_entropy = 0.014801397, learning_rate = 2.7879391e-06, train_mean_iou = 0.85311645, train_px_accuracy = 0.9991184 (3.340 sec)
+INFO:tensorflow:global_step/sec: 2.92063
+INFO:tensorflow:cross_entropy = 0.0052914, learning_rate = 2.7869373e-06, train_mean_iou = 0.8535282, train_px_accuracy = 0.9991215 (4.125 sec)
+INFO:tensorflow:loss = 0.09320607, step = 79450 (34.240 sec)
+INFO:tensorflow:cross_entropy = 0.0038266135, learning_rate = 2.7859355e-06, train_mean_iou = 0.85349995, train_px_accuracy = 0.9991258 (3.349 sec)
+INFO:tensorflow:cross_entropy = 0.0047581876, learning_rate = 2.7849337e-06, train_mean_iou = 0.85350907, train_px_accuracy = 0.9991288 (3.345 sec)
+INFO:tensorflow:cross_entropy = 0.0073139253, learning_rate = 2.7839324e-06, train_mean_iou = 0.8536733, train_px_accuracy = 0.99912786 (3.339 sec)
+INFO:tensorflow:cross_entropy = 0.0030808467, learning_rate = 2.7829303e-06, train_mean_iou = 0.8537826, train_px_accuracy = 0.9991328 (3.341 sec)
+INFO:tensorflow:cross_entropy = 0.006022563, learning_rate = 2.7819285e-06, train_mean_iou = 0.85376996, train_px_accuracy = 0.9991325 (3.345 sec)
+INFO:tensorflow:cross_entropy = 0.0076333033, learning_rate = 2.780927e-06, train_mean_iou = 0.85369205, train_px_accuracy = 0.9991301 (3.361 sec)
+INFO:tensorflow:cross_entropy = 0.006365888, learning_rate = 2.779925e-06, train_mean_iou = 0.85414046, train_px_accuracy = 0.9991321 (3.332 sec)
+INFO:tensorflow:cross_entropy = 0.006799949, learning_rate = 2.7789229e-06, train_mean_iou = 0.8539061, train_px_accuracy = 0.9991338 (3.332 sec)
+INFO:tensorflow:cross_entropy = 0.0060830386, learning_rate = 2.7779208e-06, train_mean_iou = 0.85398036, train_px_accuracy = 0.9991338 (3.339 sec)
+INFO:tensorflow:global_step/sec: 2.93447
+INFO:tensorflow:cross_entropy = 0.0076175826, learning_rate = 2.7769192e-06, train_mean_iou = 0.85400873, train_px_accuracy = 0.9991307 (3.992 sec)
+INFO:tensorflow:loss = 0.09544026, step = 79550 (34.077 sec)
+INFO:tensorflow:cross_entropy = 0.0066421526, learning_rate = 2.775917e-06, train_mean_iou = 0.85376424, train_px_accuracy = 0.9991328 (3.341 sec)
+INFO:tensorflow:cross_entropy = 0.010683924, learning_rate = 2.7749145e-06, train_mean_iou = 0.8539166, train_px_accuracy = 0.9991305 (3.361 sec)
+INFO:tensorflow:cross_entropy = 0.0073908013, learning_rate = 2.773913e-06, train_mean_iou = 0.85401165, train_px_accuracy = 0.99913 (3.341 sec)
+INFO:tensorflow:cross_entropy = 0.007456179, learning_rate = 2.7729104e-06, train_mean_iou = 0.8544211, train_px_accuracy = 0.9991294 (3.348 sec)
+INFO:tensorflow:cross_entropy = 0.00331143, learning_rate = 2.771908e-06, train_mean_iou = 0.854498, train_px_accuracy = 0.9991349 (3.343 sec)
+INFO:tensorflow:cross_entropy = 0.0054689837, learning_rate = 2.7709054e-06, train_mean_iou = 0.8546988, train_px_accuracy = 0.99913555 (3.351 sec)
+INFO:tensorflow:cross_entropy = 0.0077028973, learning_rate = 2.7699036e-06, train_mean_iou = 0.8549032, train_px_accuracy = 0.9991354 (3.333 sec)
+INFO:tensorflow:cross_entropy = 0.0055208076, learning_rate = 2.7689007e-06, train_mean_iou = 0.85492814, train_px_accuracy = 0.9991374 (3.347 sec)
+INFO:tensorflow:cross_entropy = 0.0076227225, learning_rate = 2.7678982e-06, train_mean_iou = 0.8549774, train_px_accuracy = 0.9991367 (3.338 sec)
+INFO:tensorflow:global_step/sec: 2.92516
+INFO:tensorflow:cross_entropy = 0.0054365085, learning_rate = 2.7668957e-06, train_mean_iou = 0.8548705, train_px_accuracy = 0.9991369 (4.084 sec)
+INFO:tensorflow:loss = 0.09316664, step = 79650 (34.186 sec)
+INFO:tensorflow:cross_entropy = 0.013699838, learning_rate = 2.7658934e-06, train_mean_iou = 0.8550746, train_px_accuracy = 0.9991296 (3.342 sec)
+INFO:tensorflow:cross_entropy = 0.0040600123, learning_rate = 2.7648905e-06, train_mean_iou = 0.85524255, train_px_accuracy = 0.99913466 (3.341 sec)
+INFO:tensorflow:cross_entropy = 0.006643591, learning_rate = 2.7638878e-06, train_mean_iou = 0.8550584, train_px_accuracy = 0.99913377 (3.343 sec)
+INFO:tensorflow:cross_entropy = 0.018591331, learning_rate = 2.7628853e-06, train_mean_iou = 0.8543101, train_px_accuracy = 0.99911845 (3.341 sec)
+INFO:tensorflow:cross_entropy = 0.0061086286, learning_rate = 2.7618823e-06, train_mean_iou = 0.8542762, train_px_accuracy = 0.99912006 (3.340 sec)
+INFO:tensorflow:cross_entropy = 0.0042152423, learning_rate = 2.7608794e-06, train_mean_iou = 0.8542385, train_px_accuracy = 0.9991235 (3.332 sec)
+INFO:tensorflow:cross_entropy = 0.0057024597, learning_rate = 2.7598765e-06, train_mean_iou = 0.8542558, train_px_accuracy = 0.99912417 (3.322 sec)
+INFO:tensorflow:cross_entropy = 0.008683105, learning_rate = 2.758874e-06, train_mean_iou = 0.85431194, train_px_accuracy = 0.99912214 (3.816 sec)
+INFO:tensorflow:cross_entropy = 0.0037727566, learning_rate = 2.7578708e-06, train_mean_iou = 0.85420996, train_px_accuracy = 0.9991255 (3.314 sec)
+INFO:tensorflow:global_step/sec: 2.8976
+INFO:tensorflow:cross_entropy = 0.0074756914, learning_rate = 2.7568676e-06, train_mean_iou = 0.8542066, train_px_accuracy = 0.99912506 (4.022 sec)
+INFO:tensorflow:loss = 0.095112905, step = 79750 (34.511 sec)
+INFO:tensorflow:cross_entropy = 0.008969063, learning_rate = 2.755865e-06, train_mean_iou = 0.85412884, train_px_accuracy = 0.9991231 (3.313 sec)
+INFO:tensorflow:cross_entropy = 0.0065134885, learning_rate = 2.7548615e-06, train_mean_iou = 0.8543301, train_px_accuracy = 0.9991238 (3.313 sec)
+INFO:tensorflow:cross_entropy = 0.006645787, learning_rate = 2.7538583e-06, train_mean_iou = 0.8542884, train_px_accuracy = 0.99912405 (3.320 sec)
+INFO:tensorflow:cross_entropy = 0.006496577, learning_rate = 2.752855e-06, train_mean_iou = 0.8542171, train_px_accuracy = 0.9991236 (3.312 sec)
+INFO:tensorflow:cross_entropy = 0.0075083636, learning_rate = 2.751852e-06, train_mean_iou = 0.8543267, train_px_accuracy = 0.9991228 (3.314 sec)
+INFO:tensorflow:cross_entropy = 0.0076270886, learning_rate = 2.7508484e-06, train_mean_iou = 0.8541611, train_px_accuracy = 0.99912333 (3.308 sec)
+INFO:tensorflow:cross_entropy = 0.011699187, learning_rate = 2.749845e-06, train_mean_iou = 0.85448134, train_px_accuracy = 0.99911904 (3.331 sec)
+INFO:tensorflow:cross_entropy = 0.008683404, learning_rate = 2.7488416e-06, train_mean_iou = 0.8542046, train_px_accuracy = 0.99911606 (3.339 sec)
+INFO:tensorflow:cross_entropy = 0.010939621, learning_rate = 2.7478384e-06, train_mean_iou = 0.8542065, train_px_accuracy = 0.99911255 (3.323 sec)
+INFO:tensorflow:global_step/sec: 2.94744
+INFO:tensorflow:cross_entropy = 0.0029935031, learning_rate = 2.7468345e-06, train_mean_iou = 0.85425866, train_px_accuracy = 0.99911684 (4.055 sec)
+INFO:tensorflow:loss = 0.09053898, step = 79850 (33.929 sec)
+INFO:tensorflow:cross_entropy = 0.0069131088, learning_rate = 2.7458311e-06, train_mean_iou = 0.85439175, train_px_accuracy = 0.9991174 (3.326 sec)
+INFO:tensorflow:cross_entropy = 0.010067955, learning_rate = 2.7448277e-06, train_mean_iou = 0.85435146, train_px_accuracy = 0.9991136 (3.316 sec)
+INFO:tensorflow:cross_entropy = 0.006026543, learning_rate = 2.743824e-06, train_mean_iou = 0.854391, train_px_accuracy = 0.99911475 (3.313 sec)
+INFO:tensorflow:cross_entropy = 0.0067700464, learning_rate = 2.74282e-06, train_mean_iou = 0.85475665, train_px_accuracy = 0.9991153 (3.318 sec)
+INFO:tensorflow:cross_entropy = 0.005400044, learning_rate = 2.7418162e-06, train_mean_iou = 0.8547317, train_px_accuracy = 0.99911666 (3.312 sec)
+INFO:tensorflow:cross_entropy = 0.01156444, learning_rate = 2.7408128e-06, train_mean_iou = 0.8548088, train_px_accuracy = 0.99911207 (3.314 sec)
+INFO:tensorflow:cross_entropy = 0.003278165, learning_rate = 2.7398087e-06, train_mean_iou = 0.85484254, train_px_accuracy = 0.9991153 (3.318 sec)
+INFO:tensorflow:cross_entropy = 0.008143502, learning_rate = 2.7388046e-06, train_mean_iou = 0.8546594, train_px_accuracy = 0.9991132 (3.324 sec)
+INFO:tensorflow:cross_entropy = 0.020626958, learning_rate = 2.7378012e-06, train_mean_iou = 0.8542411, train_px_accuracy = 0.9991017 (3.312 sec)
+INFO:tensorflow:global_step/sec: 2.95457
+INFO:tensorflow:cross_entropy = 0.006715758, learning_rate = 2.736797e-06, train_mean_iou = 0.85440975, train_px_accuracy = 0.9991033 (3.992 sec)
+INFO:tensorflow:loss = 0.09417015, step = 79950 (33.845 sec)
+INFO:tensorflow:cross_entropy = 0.0053809807, learning_rate = 2.7357926e-06, train_mean_iou = 0.8543302, train_px_accuracy = 0.9991046 (3.308 sec)
+INFO:tensorflow:cross_entropy = 0.0072731217, learning_rate = 2.7347883e-06, train_mean_iou = 0.8543588, train_px_accuracy = 0.9991035 (3.313 sec)
+INFO:tensorflow:cross_entropy = 0.010074643, learning_rate = 2.7337846e-06, train_mean_iou = 0.8544102, train_px_accuracy = 0.99910057 (3.321 sec)
+INFO:tensorflow:cross_entropy = 0.0047847675, learning_rate = 2.7327803e-06, train_mean_iou = 0.85448796, train_px_accuracy = 0.9991035 (3.304 sec)
+INFO:tensorflow:cross_entropy = 0.0093846945, learning_rate = 2.7317758e-06, train_mean_iou = 0.8544486, train_px_accuracy = 0.9991019 (3.303 sec)
+INFO:tensorflow:cross_entropy = 0.009673084, learning_rate = 2.7307715e-06, train_mean_iou = 0.85433716, train_px_accuracy = 0.9990981 (3.331 sec)
+INFO:tensorflow:cross_entropy = 0.007583284, learning_rate = 2.7297672e-06, train_mean_iou = 0.8545218, train_px_accuracy = 0.9990979 (3.313 sec)
+INFO:tensorflow:cross_entropy = 0.0065493863, learning_rate = 2.7287629e-06, train_mean_iou = 0.85447884, train_px_accuracy = 0.99909925 (3.303 sec)
+INFO:tensorflow:cross_entropy = 0.007285398, learning_rate = 2.727758e-06, train_mean_iou = 0.8544712, train_px_accuracy = 0.9990994 (3.324 sec)
+INFO:tensorflow:global_step/sec: 2.95532
+INFO:tensorflow:cross_entropy = 0.0071107983, learning_rate = 2.726754e-06, train_mean_iou = 0.8544115, train_px_accuracy = 0.99909854 (4.017 sec)
+INFO:tensorflow:loss = 0.094474524, step = 80050 (33.837 sec)
+INFO:tensorflow:cross_entropy = 0.007892637, learning_rate = 2.7257493e-06, train_mean_iou = 0.85431993, train_px_accuracy = 0.9990987 (3.299 sec)
+INFO:tensorflow:cross_entropy = 0.014392723, learning_rate = 2.7247443e-06, train_mean_iou = 0.85415584, train_px_accuracy = 0.99909353 (3.313 sec)
+INFO:tensorflow:Saving checkpoints for 80080 into ./my_model/model.ckpt.
+INFO:tensorflow:Loss for final step: 0.09360924.
+INFO:tensorflow:Start evaluation.
+INFO:tensorflow:-------------------
+INFO:tensorflow:Calling model_fn.
+[None, 321, 321, 1]
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2022-06-29-17:55:25
+INFO:tensorflow:Graph was finalized.
+2022-06-30 01:55:26.361554: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2022-06-30 01:55:26.361610: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-06-30 01:55:26.361620: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0
+2022-06-30 01:55:26.361628: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N
+2022-06-30 01:55:26.361722: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10240 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:b2:00.0, compute capability: 7.5)
+INFO:tensorflow:Restoring parameters from ./my_model/model.ckpt-80080
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2022-06-29-17:55:29
+INFO:tensorflow:Saving dict for global step 80080: global_step = 80080, loss = 0.10883484, mean_iou = 0.72380674, px_accuracy = 0.9989547
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 80080: ./my_model/model.ckpt-80080
+{'loss': 0.10883484, 'mean_iou': 0.72380674, 'px_accuracy': 0.9989547, 'global_step': 80080}
+INFO:tensorflow:Start training.
+INFO:tensorflow:-------------------
+INFO:tensorflow:Calling model_fn.
+[None, 321, 321, 1]
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+2022-06-30 01:55:39.685920: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2022-06-30 01:55:39.685986: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-06-30 01:55:39.685996: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0
+2022-06-30 01:55:39.686006: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N
+2022-06-30 01:55:39.686082: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10240 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:b2:00.0, compute capability: 7.5)
+INFO:tensorflow:Restoring parameters from ./my_model/model.ckpt-80080
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 80080 into ./my_model/model.ckpt.
+INFO:tensorflow:cross_entropy = 0.01521811, learning_rate = 2.7237395e-06, train_mean_iou = 0.8288427, train_px_accuracy = 0.9988387
+INFO:tensorflow:loss = 0.10255495, step = 80080
+INFO:tensorflow:cross_entropy = 0.009860904, learning_rate = 2.7227352e-06, train_mean_iou = 0.81807745, train_px_accuracy = 0.9989553 (11.206 sec)
+INFO:tensorflow:cross_entropy = 0.004499289, learning_rate = 2.7217302e-06, train_mean_iou = 0.80885476, train_px_accuracy = 0.9991365 (3.252 sec)
+INFO:tensorflow:cross_entropy = 0.0071409796, learning_rate = 2.7207252e-06, train_mean_iou = 0.80859035, train_px_accuracy = 0.99907994 (3.275 sec)
+INFO:tensorflow:cross_entropy = 0.009275651, learning_rate = 2.719721e-06, train_mean_iou = 0.81584316, train_px_accuracy = 0.99902016 (3.279 sec)
+INFO:tensorflow:cross_entropy = 0.0038708805, learning_rate = 2.718716e-06, train_mean_iou = 0.81806815, train_px_accuracy = 0.9991347 (3.270 sec)
+INFO:tensorflow:cross_entropy = 0.00797044, learning_rate = 2.7177107e-06, train_mean_iou = 0.821813, train_px_accuracy = 0.99912846 (3.276 sec)
+INFO:tensorflow:cross_entropy = 0.0049891532, learning_rate = 2.7167052e-06, train_mean_iou = 0.8208373, train_px_accuracy = 0.99914545 (3.282 sec)
+INFO:tensorflow:cross_entropy = 0.011453388, learning_rate = 2.715701e-06, train_mean_iou = 0.8205121, train_px_accuracy = 0.99908197 (3.305 sec)
+INFO:tensorflow:cross_entropy = 0.0028819044, learning_rate = 2.7146955e-06, train_mean_iou = 0.82251835, train_px_accuracy = 0.999142 (3.277 sec)
+INFO:tensorflow:global_step/sec: 2.41396
+INFO:tensorflow:cross_entropy = 0.0077060005, learning_rate = 2.71369e-06, train_mean_iou = 0.82208383, train_px_accuracy = 0.9991426 (4.003 sec)
+INFO:tensorflow:loss = 0.09495638, step = 80180 (41.426 sec)
+INFO:tensorflow:cross_entropy = 0.01713029, learning_rate = 2.7126848e-06, train_mean_iou = 0.82289886, train_px_accuracy = 0.9990481 (3.294 sec)
+INFO:tensorflow:cross_entropy = 0.004014906, learning_rate = 2.7116798e-06, train_mean_iou = 0.82194614, train_px_accuracy = 0.9990867 (3.309 sec)
+INFO:tensorflow:cross_entropy = 0.0034573164, learning_rate = 2.7106746e-06, train_mean_iou = 0.8215188, train_px_accuracy = 0.99911267 (3.287 sec)
+INFO:tensorflow:cross_entropy = 0.0056652566, learning_rate = 2.709669e-06, train_mean_iou = 0.82288593, train_px_accuracy = 0.9991227 (3.300 sec)
+INFO:tensorflow:cross_entropy = 0.008825855, learning_rate = 2.7086637e-06, train_mean_iou = 0.8259254, train_px_accuracy = 0.9991117 (3.297 sec)
+INFO:tensorflow:cross_entropy = 0.0027195578, learning_rate = 2.7076583e-06, train_mean_iou = 0.826436, train_px_accuracy = 0.9991473 (3.313 sec)
+INFO:tensorflow:cross_entropy = 0.0066144103, learning_rate = 2.7066526e-06, train_mean_iou = 0.8270343, train_px_accuracy = 0.9991413 (3.296 sec)
+INFO:tensorflow:cross_entropy = 0.006435614, learning_rate = 2.705647e-06, train_mean_iou = 0.8275134, train_px_accuracy = 0.99913746 (3.318 sec)
+INFO:tensorflow:cross_entropy = 0.0046002986, learning_rate = 2.7046417e-06, train_mean_iou = 0.8293351, train_px_accuracy = 0.9991568 (3.299 sec)
+INFO:tensorflow:global_step/sec: 2.96556
+INFO:tensorflow:cross_entropy = 0.004924746, learning_rate = 2.7036356e-06, train_mean_iou = 0.82942784, train_px_accuracy = 0.9991737 (4.006 sec)
+INFO:tensorflow:loss = 0.092088245, step = 80280 (33.720 sec)
+INFO:tensorflow:cross_entropy = 0.004941915, learning_rate = 2.70263e-06, train_mean_iou = 0.82959884, train_px_accuracy = 0.9991823 (3.325 sec)
+INFO:tensorflow:cross_entropy = 0.005728248, learning_rate = 2.7016245e-06, train_mean_iou = 0.82999736, train_px_accuracy = 0.9991838 (3.311 sec)
+INFO:tensorflow:cross_entropy = 0.0027703186, learning_rate = 2.7006186e-06, train_mean_iou = 0.8301218, train_px_accuracy = 0.99920183 (3.325 sec)
+INFO:tensorflow:cross_entropy = 0.007971498, learning_rate = 2.6996124e-06, train_mean_iou = 0.8342679, train_px_accuracy = 0.99919605 (3.316 sec)
+INFO:tensorflow:cross_entropy = 0.007036791, learning_rate = 2.698606e-06, train_mean_iou = 0.83415395, train_px_accuracy = 0.9991943 (3.303 sec)
+INFO:tensorflow:cross_entropy = 0.007874211, learning_rate = 2.6976006e-06, train_mean_iou = 0.8358022, train_px_accuracy = 0.9991899 (3.314 sec)
+INFO:tensorflow:cross_entropy = 0.0024972532, learning_rate = 2.6965945e-06, train_mean_iou = 0.8360351, train_px_accuracy = 0.9992093 (3.331 sec)
+INFO:tensorflow:cross_entropy = 0.004842511, learning_rate = 2.6955881e-06, train_mean_iou = 0.83670396, train_px_accuracy = 0.9992116 (3.316 sec)
+INFO:tensorflow:cross_entropy = 0.008252923, learning_rate = 2.6945825e-06, train_mean_iou = 0.83957875, train_px_accuracy = 0.999202 (3.308 sec)
+INFO:tensorflow:global_step/sec: 2.9567
+INFO:tensorflow:cross_entropy = 0.0028116244, learning_rate = 2.693576e-06, train_mean_iou = 0.83947724, train_px_accuracy = 0.999218 (3.973 sec)
+INFO:tensorflow:loss = 0.08988628, step = 80380 (33.822 sec)
+INFO:tensorflow:cross_entropy = 0.0050752372, learning_rate = 2.6925698e-06, train_mean_iou = 0.84058946, train_px_accuracy = 0.9992242 (3.299 sec)
+INFO:tensorflow:cross_entropy = 0.004109779, learning_rate = 2.6915632e-06, train_mean_iou = 0.84059715, train_px_accuracy = 0.9992311 (3.304 sec)
+INFO:tensorflow:cross_entropy = 0.0067360722, learning_rate = 2.6905573e-06, train_mean_iou = 0.84199303, train_px_accuracy = 0.9992276 (3.302 sec)
+INFO:tensorflow:cross_entropy = 0.0024662893, learning_rate = 2.6895507e-06, train_mean_iou = 0.84243745, train_px_accuracy = 0.99924046 (3.302 sec)
+INFO:tensorflow:cross_entropy = 0.005383131, learning_rate = 2.688544e-06, train_mean_iou = 0.8424334, train_px_accuracy = 0.99924165 (3.314 sec)
+INFO:tensorflow:cross_entropy = 0.011759999, learning_rate = 2.6875373e-06, train_mean_iou = 0.8418579, train_px_accuracy = 0.9992229 (3.312 sec)
+INFO:tensorflow:cross_entropy = 0.004050751, learning_rate = 2.6865314e-06, train_mean_iou = 0.8419345, train_px_accuracy = 0.9992326 (3.314 sec)
+INFO:tensorflow:cross_entropy = 0.002455141, learning_rate = 2.6855246e-06, train_mean_iou = 0.84189266, train_px_accuracy = 0.9992436 (3.310 sec)
+INFO:tensorflow:cross_entropy = 0.005100434, learning_rate = 2.6845178e-06, train_mean_iou = 0.8428015, train_px_accuracy = 0.9992441 (3.304 sec)
+INFO:tensorflow:global_step/sec: 2.95553
+INFO:tensorflow:cross_entropy = 0.00824803, learning_rate = 2.6835114e-06, train_mean_iou = 0.84357405, train_px_accuracy = 0.99923635 (4.074 sec)
+INFO:tensorflow:loss = 0.095232345, step = 80480 (33.835 sec)
+INFO:tensorflow:cross_entropy = 0.0023714378, learning_rate = 2.6825044e-06, train_mean_iou = 0.84337455, train_px_accuracy = 0.9992483 (3.311 sec)
+INFO:tensorflow:cross_entropy = 0.005909153, learning_rate = 2.6814976e-06, train_mean_iou = 0.84366184, train_px_accuracy = 0.99924725 (3.314 sec)
+INFO:tensorflow:cross_entropy = 0.0053573633, learning_rate = 2.6804905e-06, train_mean_iou = 0.84385103, train_px_accuracy = 0.99924624 (3.323 sec)
+INFO:tensorflow:cross_entropy = 0.0036189004, learning_rate = 2.679484e-06, train_mean_iou = 0.8451606, train_px_accuracy = 0.9992534 (3.308 sec)
+INFO:tensorflow:cross_entropy = 0.003798723, learning_rate = 2.678477e-06, train_mean_iou = 0.84541273, train_px_accuracy = 0.99925995 (3.309 sec)
+INFO:tensorflow:cross_entropy = 0.00398081, learning_rate = 2.6774696e-06, train_mean_iou = 0.8457702, train_px_accuracy = 0.99926406 (3.310 sec)
+INFO:tensorflow:cross_entropy = 0.004503186, learning_rate = 2.6764628e-06, train_mean_iou = 0.8460985, train_px_accuracy = 0.99926704 (3.309 sec)
+INFO:tensorflow:cross_entropy = 0.00243816, learning_rate = 2.6754556e-06, train_mean_iou = 0.8462944, train_px_accuracy = 0.9992756 (3.316 sec)
+INFO:tensorflow:cross_entropy = 0.007214994, learning_rate = 2.6744483e-06, train_mean_iou = 0.8483561, train_px_accuracy = 0.99927455 (3.304 sec)
+INFO:tensorflow:global_step/sec: 2.9573
+INFO:tensorflow:cross_entropy = 0.004953251, learning_rate = 2.6734408e-06, train_mean_iou = 0.8484166, train_px_accuracy = 0.99927634 (4.010 sec)
+INFO:tensorflow:loss = 0.091845974, step = 80580 (33.814 sec)
+INFO:tensorflow:cross_entropy = 0.009054044, learning_rate = 2.672434e-06, train_mean_iou = 0.8496997, train_px_accuracy = 0.9992695 (3.318 sec)
+INFO:tensorflow:cross_entropy = 0.0020105378, learning_rate = 2.6714265e-06, train_mean_iou = 0.8499532, train_px_accuracy = 0.9992785 (3.313 sec)
+INFO:tensorflow:cross_entropy = 0.0044684582, learning_rate = 2.670419e-06, train_mean_iou = 0.8500596, train_px_accuracy = 0.99927974 (3.312 sec)
+INFO:tensorflow:cross_entropy = 0.009092011, learning_rate = 2.6694115e-06, train_mean_iou = 0.8513008, train_px_accuracy = 0.9992723 (3.319 sec)
+INFO:tensorflow:cross_entropy = 0.002858032, learning_rate = 2.6684045e-06, train_mean_iou = 0.85103065, train_px_accuracy = 0.9992789 (3.309 sec)
+INFO:tensorflow:cross_entropy = 0.003801086, learning_rate = 2.6673968e-06, train_mean_iou = 0.8514685, train_px_accuracy = 0.99928445 (3.297 sec)
+INFO:tensorflow:cross_entropy = 0.0036753993, learning_rate = 2.6663888e-06, train_mean_iou = 0.8514951, train_px_accuracy = 0.9992883 (3.324 sec)
+INFO:tensorflow:cross_entropy = 0.005666621, learning_rate = 2.6653815e-06, train_mean_iou = 0.85176414, train_px_accuracy = 0.9992867 (3.319 sec)
+INFO:tensorflow:cross_entropy = 0.0022978068, learning_rate = 2.664374e-06, train_mean_iou = 0.85190827, train_px_accuracy = 0.9992934 (3.325 sec)
+INFO:tensorflow:global_step/sec: 2.95578
+INFO:tensorflow:cross_entropy = 0.0049986844, learning_rate = 2.6633659e-06, train_mean_iou = 0.8518322, train_px_accuracy = 0.9992932 (3.997 sec)
+INFO:tensorflow:loss = 0.091799736, step = 80680 (33.832 sec)
+INFO:tensorflow:cross_entropy = 0.009290333, learning_rate = 2.6623577e-06, train_mean_iou = 0.8515059, train_px_accuracy = 0.9992857 (3.292 sec)
+INFO:tensorflow:cross_entropy = 0.0036537787, learning_rate = 2.6613504e-06, train_mean_iou = 0.8519625, train_px_accuracy = 0.9992898 (3.299 sec)
+INFO:tensorflow:cross_entropy = 0.0030700434, learning_rate = 2.6603423e-06, train_mean_iou = 0.8516378, train_px_accuracy = 0.99929553 (3.310 sec)
+INFO:tensorflow:cross_entropy = 0.005216722, learning_rate = 2.6593343e-06, train_mean_iou = 0.85206956, train_px_accuracy = 0.9992952 (3.317 sec)
+INFO:tensorflow:cross_entropy = 0.0070382943, learning_rate = 2.6583266e-06, train_mean_iou = 0.8528118, train_px_accuracy = 0.9992917 (3.316 sec)
+INFO:tensorflow:cross_entropy = 0.0024851267, learning_rate = 2.6573186e-06, train_mean_iou = 0.85299855, train_px_accuracy = 0.999298 (3.312 sec)
+INFO:tensorflow:cross_entropy = 0.0058966973, learning_rate = 2.6563102e-06, train_mean_iou = 0.85320777, train_px_accuracy = 0.99929655 (3.321 sec)
+INFO:tensorflow:cross_entropy = 0.0052950494, learning_rate = 2.6553018e-06, train_mean_iou = 0.8534633, train_px_accuracy = 0.99929655 (3.310 sec)
+INFO:tensorflow:cross_entropy = 0.0038694984, learning_rate = 2.6542941e-06, train_mean_iou = 0.8540783, train_px_accuracy = 0.99929905 (3.301 sec)
+INFO:tensorflow:global_step/sec: 2.9578
+INFO:tensorflow:cross_entropy = 0.0031434663, learning_rate = 2.6532855e-06, train_mean_iou = 0.854278, train_px_accuracy = 0.9993044 (4.033 sec)
+INFO:tensorflow:loss = 0.08985151, step = 80780 (33.810 sec)
+INFO:tensorflow:cross_entropy = 0.0037340557, learning_rate = 2.652277e-06, train_mean_iou = 0.85468346, train_px_accuracy = 0.99930716 (3.314 sec)
+INFO:tensorflow:cross_entropy = 0.004202986, learning_rate = 2.6512687e-06, train_mean_iou = 0.85500705, train_px_accuracy = 0.9993092 (3.331 sec)
+INFO:tensorflow:cross_entropy = 0.0023341107, learning_rate = 2.6502605e-06, train_mean_iou = 0.8552608, train_px_accuracy = 0.9993147 (3.320 sec)
+INFO:tensorflow:cross_entropy = 0.006283894, learning_rate = 2.649252e-06, train_mean_iou = 0.8559364, train_px_accuracy = 0.9993138 (3.314 sec)
+INFO:tensorflow:cross_entropy = 0.004153855, learning_rate = 2.6482433e-06, train_mean_iou = 0.85594815, train_px_accuracy = 0.9993157 (3.314 sec)
+INFO:tensorflow:cross_entropy = 0.009873372, learning_rate = 2.6472349e-06, train_mean_iou = 0.8552818, train_px_accuracy = 0.9993089 (3.323 sec)
+INFO:tensorflow:cross_entropy = 0.0020958523, learning_rate = 2.6462262e-06, train_mean_iou = 0.85539734, train_px_accuracy = 0.99931425 (3.331 sec)
+INFO:tensorflow:cross_entropy = 0.0044244234, learning_rate = 2.6452174e-06, train_mean_iou = 0.8552907, train_px_accuracy = 0.9993147 (3.322 sec)
+INFO:tensorflow:cross_entropy = 0.010108909, learning_rate = 2.6442085e-06, train_mean_iou = 0.85578233, train_px_accuracy = 0.99930626 (3.312 sec)
+INFO:tensorflow:global_step/sec: 2.95262
+INFO:tensorflow:cross_entropy = 0.0037292491, learning_rate = 2.6432e-06, train_mean_iou = 0.8557227, train_px_accuracy = 0.9993102 (3.987 sec)
+INFO:tensorflow:loss = 0.09034268, step = 80880 (33.867 sec)
+INFO:tensorflow:cross_entropy = 0.0031834426, learning_rate = 2.642191e-06, train_mean_iou = 0.8555779, train_px_accuracy = 0.9993134 (3.314 sec)
+INFO:tensorflow:cross_entropy = 0.0035765972, learning_rate = 2.641182e-06, train_mean_iou = 0.8556159, train_px_accuracy = 0.999316 (3.326 sec)
+INFO:tensorflow:cross_entropy = 0.0056991763, learning_rate = 2.6401735e-06, train_mean_iou = 0.8557115, train_px_accuracy = 0.9993152 (3.311 sec)
+INFO:tensorflow:cross_entropy = 0.0024750733, learning_rate = 2.6391642e-06, train_mean_iou = 0.8557727, train_px_accuracy = 0.99932 (3.331 sec)
+INFO:tensorflow:cross_entropy = 0.005081909, learning_rate = 2.638155e-06, train_mean_iou = 0.8557739, train_px_accuracy = 0.9993201 (3.314 sec)
+INFO:tensorflow:cross_entropy = 0.0067398944, learning_rate = 2.6371458e-06, train_mean_iou = 0.85571873, train_px_accuracy = 0.99931717 (3.316 sec)
+INFO:tensorflow:cross_entropy = 0.003425553, learning_rate = 2.6361372e-06, train_mean_iou = 0.8561331, train_px_accuracy = 0.99932045 (3.309 sec)
+INFO:tensorflow:cross_entropy = 0.0036009776, learning_rate = 2.6351274e-06, train_mean_iou = 0.85593146, train_px_accuracy = 0.9993236 (3.302 sec)
+INFO:tensorflow:cross_entropy = 0.0051727407, learning_rate = 2.6341181e-06, train_mean_iou = 0.8562502, train_px_accuracy = 0.9993235 (3.314 sec)
+INFO:tensorflow:global_step/sec: 2.94927
+INFO:tensorflow:cross_entropy = 0.0066038915, learning_rate = 2.6331088e-06, train_mean_iou = 0.8566968, train_px_accuracy = 0.9993212 (4.070 sec)
+INFO:tensorflow:loss = 0.093121976, step = 80980 (33.907 sec)
+INFO:tensorflow:cross_entropy = 0.0025278328, learning_rate = 2.6320997e-06, train_mean_iou = 0.8567828, train_px_accuracy = 0.99932534 (3.313 sec)
+INFO:tensorflow:cross_entropy = 0.007248916, learning_rate = 2.63109e-06, train_mean_iou = 0.85685074, train_px_accuracy = 0.99932253 (3.305 sec)
+INFO:tensorflow:cross_entropy = 0.0057632593, learning_rate = 2.6300804e-06, train_mean_iou = 0.8568881, train_px_accuracy = 0.99932116 (3.325 sec)
+INFO:tensorflow:cross_entropy = 0.0044584177, learning_rate = 2.6290713e-06, train_mean_iou = 0.85724074, train_px_accuracy = 0.9993223 (3.303 sec)
+INFO:tensorflow:cross_entropy = 0.0022057558, learning_rate = 2.6280616e-06, train_mean_iou = 0.8573971, train_px_accuracy = 0.99932665 (3.329 sec)
+INFO:tensorflow:cross_entropy = 0.0044525987, learning_rate = 2.6270518e-06, train_mean_iou = 0.85770273, train_px_accuracy = 0.99932736 (3.308 sec)
+INFO:tensorflow:cross_entropy = 0.005024671, learning_rate = 2.6260418e-06, train_mean_iou = 0.85796213, train_px_accuracy = 0.9993276 (3.299 sec)
+INFO:tensorflow:cross_entropy = 0.0028354889, learning_rate = 2.6250327e-06, train_mean_iou = 0.85756654, train_px_accuracy = 0.9993304 (3.316 sec)
+INFO:tensorflow:cross_entropy = 0.0067239627, learning_rate = 2.6240227e-06, train_mean_iou = 0.85780334, train_px_accuracy = 0.99932957 (3.309 sec)
+INFO:tensorflow:global_step/sec: 2.95803
+INFO:tensorflow:cross_entropy = 0.0037988543, learning_rate = 2.6230127e-06, train_mean_iou = 0.85773957, train_px_accuracy = 0.99933106 (3.998 sec)
+INFO:tensorflow:loss = 0.09022047, step = 81080 (33.805 sec)
+INFO:tensorflow:cross_entropy = 0.010356019, learning_rate = 2.6220032e-06, train_mean_iou = 0.85744655, train_px_accuracy = 0.99932516 (3.307 sec)
+INFO:tensorflow:cross_entropy = 0.002524529, learning_rate = 2.620993e-06, train_mean_iou = 0.85745823, train_px_accuracy = 0.99932843 (3.315 sec)
+INFO:tensorflow:cross_entropy = 0.0046742912, learning_rate = 2.6199828e-06, train_mean_iou = 0.8573087, train_px_accuracy = 0.99932826 (3.319 sec)
+INFO:tensorflow:cross_entropy = 0.012948055, learning_rate = 2.6189725e-06, train_mean_iou = 0.8570711, train_px_accuracy = 0.9993198 (3.310 sec)
+INFO:tensorflow:cross_entropy = 0.003599336, learning_rate = 2.617963e-06, train_mean_iou = 0.8572889, train_px_accuracy = 0.9993225 (3.311 sec)
+INFO:tensorflow:cross_entropy = 0.003159842, learning_rate = 2.6169525e-06, train_mean_iou = 0.8571739, train_px_accuracy = 0.999325 (3.318 sec)
+INFO:tensorflow:cross_entropy = 0.0037181028, learning_rate = 2.615942e-06, train_mean_iou = 0.85716045, train_px_accuracy = 0.99932617 (3.297 sec)
+INFO:tensorflow:cross_entropy = 0.0057728994, learning_rate = 2.6149319e-06, train_mean_iou = 0.8572039, train_px_accuracy = 0.9993253 (3.309 sec)
+INFO:tensorflow:cross_entropy = 0.0024877891, learning_rate = 2.6139217e-06, train_mean_iou = 0.8572203, train_px_accuracy = 0.9993285 (3.307 sec)
+INFO:tensorflow:global_step/sec: 2.96006
+INFO:tensorflow:cross_entropy = 0.005424231, learning_rate = 2.612911e-06, train_mean_iou = 0.857246, train_px_accuracy = 0.99932855 (3.991 sec)
+INFO:tensorflow:loss = 0.09174969, step = 81180 (33.785 sec)
+INFO:tensorflow:cross_entropy = 0.006519217, learning_rate = 2.6119005e-06, train_mean_iou = 0.8571755, train_px_accuracy = 0.9993268 (3.317 sec)
+INFO:tensorflow:cross_entropy = 0.0045848233, learning_rate = 2.6108905e-06, train_mean_iou = 0.85754967, train_px_accuracy = 0.99932826 (3.312 sec)
+INFO:tensorflow:cross_entropy = 0.004060566, learning_rate = 2.6098799e-06, train_mean_iou = 0.8575292, train_px_accuracy = 0.99932957 (3.314 sec)
+INFO:tensorflow:cross_entropy = 0.0055460054, learning_rate = 2.608869e-06, train_mean_iou = 0.85759574, train_px_accuracy = 0.9993295 (3.312 sec)
+INFO:tensorflow:cross_entropy = 0.006732416, learning_rate = 2.6078578e-06, train_mean_iou = 0.8577524, train_px_accuracy = 0.9993278 (3.317 sec)
+INFO:tensorflow:cross_entropy = 0.0037831485, learning_rate = 2.6068478e-06, train_mean_iou = 0.8575521, train_px_accuracy = 0.9993297 (3.311 sec)
+INFO:tensorflow:cross_entropy = 0.008960244, learning_rate = 2.605837e-06, train_mean_iou = 0.857479, train_px_accuracy = 0.9993258 (3.316 sec)
+INFO:tensorflow:cross_entropy = 0.0069770906, learning_rate = 2.6048256e-06, train_mean_iou = 0.85734737, train_px_accuracy = 0.9993237 (3.310 sec)
+INFO:tensorflow:cross_entropy = 0.0059592216, learning_rate = 2.6038153e-06, train_mean_iou = 0.8575761, train_px_accuracy = 0.99932414 (3.313 sec)
+INFO:tensorflow:global_step/sec: 2.94837
+INFO:tensorflow:cross_entropy = 0.0025920235, learning_rate = 2.6028042e-06, train_mean_iou = 0.85758525, train_px_accuracy = 0.99932736 (4.095 sec)
+INFO:tensorflow:loss = 0.088820934, step = 81280 (33.917 sec)
+INFO:tensorflow:cross_entropy = 0.0048885206, learning_rate = 2.601793e-06, train_mean_iou = 0.8577728, train_px_accuracy = 0.99932706 (3.321 sec)
+INFO:tensorflow:cross_entropy = 0.006978196, learning_rate = 2.600782e-06, train_mean_iou = 0.8577115, train_px_accuracy = 0.99932456 (3.296 sec)
+INFO:tensorflow:cross_entropy = 0.003502935, learning_rate = 2.5997713e-06, train_mean_iou = 0.857726, train_px_accuracy = 0.999327 (3.298 sec)
+INFO:tensorflow:cross_entropy = 0.0063393055, learning_rate = 2.59876e-06, train_mean_iou = 0.85802037, train_px_accuracy = 0.9993271 (3.304 sec)
+INFO:tensorflow:cross_entropy = 0.0042946236, learning_rate = 2.5977486e-06, train_mean_iou = 0.8579553, train_px_accuracy = 0.9993277 (3.306 sec)
+INFO:tensorflow:cross_entropy = 0.010143994, learning_rate = 2.5967377e-06, train_mean_iou = 0.85758984, train_px_accuracy = 0.9993226 (3.315 sec)
+INFO:tensorflow:cross_entropy = 0.00267473, learning_rate = 2.5957263e-06, train_mean_iou = 0.8576822, train_px_accuracy = 0.99932545 (3.314 sec)
+INFO:tensorflow:cross_entropy = 0.005773977, learning_rate = 2.5947147e-06, train_mean_iou = 0.857563, train_px_accuracy = 0.9993255 (3.309 sec)
+INFO:tensorflow:cross_entropy = 0.01704092, learning_rate = 2.5937031e-06, train_mean_iou = 0.8569242, train_px_accuracy = 0.9993164 (3.319 sec)
+INFO:tensorflow:global_step/sec: 2.95735
+INFO:tensorflow:cross_entropy = 0.004047895, learning_rate = 2.592692e-06, train_mean_iou = 0.8568935, train_px_accuracy = 0.99931747 (4.031 sec)
+INFO:tensorflow:loss = 0.090180695, step = 81380 (33.813 sec)
+INFO:tensorflow:cross_entropy = 0.0035382537, learning_rate = 2.5916804e-06, train_mean_iou = 0.85679466, train_px_accuracy = 0.9993184 (3.311 sec)
+INFO:tensorflow:cross_entropy = 0.004801853, learning_rate = 2.5906686e-06, train_mean_iou = 0.85684, train_px_accuracy = 0.99931836 (3.302 sec)
+INFO:tensorflow:cross_entropy = 0.007458713, learning_rate = 2.5896568e-06, train_mean_iou = 0.85682863, train_px_accuracy = 0.99931663 (3.312 sec)
+INFO:tensorflow:cross_entropy = 0.0028946954, learning_rate = 2.5886457e-06, train_mean_iou = 0.8569194, train_px_accuracy = 0.99931943 (3.312 sec)
+INFO:tensorflow:cross_entropy = 0.00731511, learning_rate = 2.5876336e-06, train_mean_iou = 0.8567837, train_px_accuracy = 0.9993162 (3.306 sec)
+INFO:tensorflow:cross_entropy = 0.0073852185, learning_rate = 2.5866218e-06, train_mean_iou = 0.8565917, train_px_accuracy = 0.9993139 (3.331 sec)
+INFO:tensorflow:cross_entropy = 0.00572705, learning_rate = 2.5856102e-06, train_mean_iou = 0.8568946, train_px_accuracy = 0.99931496 (3.304 sec)
+INFO:tensorflow:cross_entropy = 0.0058959345, learning_rate = 2.5845982e-06, train_mean_iou = 0.8568095, train_px_accuracy = 0.99931574 (3.304 sec)
+INFO:tensorflow:cross_entropy = 0.0054738084, learning_rate = 2.5835861e-06, train_mean_iou = 0.8567166, train_px_accuracy = 0.9993152 (3.307 sec)
+INFO:tensorflow:global_step/sec: 2.96183
+INFO:tensorflow:cross_entropy = 0.0068157404, learning_rate = 2.5825739e-06, train_mean_iou = 0.85662967, train_px_accuracy = 0.9993127 (3.974 sec)
+INFO:tensorflow:loss = 0.09285464, step = 81480 (33.763 sec)
+INFO:tensorflow:cross_entropy = 0.006963291, learning_rate = 2.5815623e-06, train_mean_iou = 0.85550416, train_px_accuracy = 0.99931264 (3.312 sec)
+INFO:tensorflow:cross_entropy = 0.012557934, learning_rate = 2.58055e-06, train_mean_iou = 0.8556986, train_px_accuracy = 0.99931026 (3.305 sec)
+INFO:tensorflow:Saving checkpoints for 81510 into ./my_model/model.ckpt.
+INFO:tensorflow:Loss for final step: 0.09083589.
+INFO:tensorflow:Start evaluation.
+INFO:tensorflow:-------------------
+INFO:tensorflow:Calling model_fn.
+[None, 321, 321, 1]
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2022-06-29-18:04:45
+INFO:tensorflow:Graph was finalized.
+2022-06-30 02:04:46.049035: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2022-06-30 02:04:46.049108: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-06-30 02:04:46.049118: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0
+2022-06-30 02:04:46.049138: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N
+2022-06-30 02:04:46.049231: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10240 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:b2:00.0, compute capability: 7.5)
+INFO:tensorflow:Restoring parameters from ./my_model/model.ckpt-81510
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2022-06-29-18:04:49
+INFO:tensorflow:Saving dict for global step 81510: global_step = 81510, loss = 0.10663257, mean_iou = 0.7097927, px_accuracy = 0.9988183
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 81510: ./my_model/model.ckpt-81510
+{'loss': 0.10663257, 'mean_iou': 0.7097927, 'px_accuracy': 0.9988183, 'global_step': 81510}
+INFO:tensorflow:Start training.
+INFO:tensorflow:-------------------
+INFO:tensorflow:Calling model_fn.
+[None, 321, 321, 1]
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+2022-06-30 02:04:59.635642: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2022-06-30 02:04:59.635705: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-06-30 02:04:59.635715: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0
+2022-06-30 02:04:59.635724: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N
+2022-06-30 02:04:59.635823: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10240 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:b2:00.0, compute capability: 7.5)
+INFO:tensorflow:Restoring parameters from ./my_model/model.ckpt-81510
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 81510 into ./my_model/model.ckpt.
+INFO:tensorflow:cross_entropy = 0.011796431, learning_rate = 2.5795377e-06, train_mean_iou = 0.66205865, train_px_accuracy = 0.99885434
+INFO:tensorflow:loss = 0.09780732, step = 81510
+INFO:tensorflow:cross_entropy = 0.008783241, learning_rate = 2.5785257e-06, train_mean_iou = 0.8141332, train_px_accuracy = 0.9989253 (11.128 sec)
+INFO:tensorflow:cross_entropy = 0.0035861959, learning_rate = 2.5775134e-06, train_mean_iou = 0.8199622, train_px_accuracy = 0.9991441 (3.247 sec)
+INFO:tensorflow:cross_entropy = 0.0062195305, learning_rate = 2.576501e-06, train_mean_iou = 0.83031285, train_px_accuracy = 0.99916226 (3.258 sec)
+INFO:tensorflow:cross_entropy = 0.008013681, learning_rate = 2.5754882e-06, train_mean_iou = 0.8360578, train_px_accuracy = 0.9991333 (3.273 sec)
+INFO:tensorflow:cross_entropy = 0.0032267384, learning_rate = 2.5744762e-06, train_mean_iou = 0.8372345, train_px_accuracy = 0.9992244 (3.282 sec)
+INFO:tensorflow:cross_entropy = 0.00812867, learning_rate = 2.5734637e-06, train_mean_iou = 0.82511425, train_px_accuracy = 0.99918795 (3.291 sec)
+INFO:tensorflow:cross_entropy = 0.004863794, learning_rate = 2.5724507e-06, train_mean_iou = 0.82373303, train_px_accuracy = 0.9991956 (3.305 sec)
+INFO:tensorflow:cross_entropy = 0.010550124, learning_rate = 2.571438e-06, train_mean_iou = 0.82424694, train_px_accuracy = 0.9991541 (3.291 sec)
+INFO:tensorflow:cross_entropy = 0.0025052673, learning_rate = 2.5704255e-06, train_mean_iou = 0.82630616, train_px_accuracy = 0.999209 (3.321 sec)
+INFO:tensorflow:global_step/sec: 2.41692
+INFO:tensorflow:cross_entropy = 0.0058107036, learning_rate = 2.5694128e-06, train_mean_iou = 0.82576805, train_px_accuracy = 0.9992063 (3.980 sec)
+INFO:tensorflow:loss = 0.091733, step = 81610 (41.375 sec)
+INFO:tensorflow:cross_entropy = 0.016606025, learning_rate = 2.5684e-06, train_mean_iou = 0.82458335, train_px_accuracy = 0.9990889 (3.325 sec)
+INFO:tensorflow:cross_entropy = 0.003504818, learning_rate = 2.5673874e-06, train_mean_iou = 0.8243033, train_px_accuracy = 0.9991256 (3.308 sec)
+INFO:tensorflow:cross_entropy = 0.0026317404, learning_rate = 2.5663744e-06, train_mean_iou = 0.82436275, train_px_accuracy = 0.99916226 (3.308 sec)
+INFO:tensorflow:cross_entropy = 0.005613353, learning_rate = 2.5653612e-06, train_mean_iou = 0.8252854, train_px_accuracy = 0.99917716 (3.313 sec)
+INFO:tensorflow:cross_entropy = 0.008483229, learning_rate = 2.564348e-06, train_mean_iou = 0.8261169, train_px_accuracy = 0.99915755 (3.318 sec)
+INFO:tensorflow:cross_entropy = 0.0022642117, learning_rate = 2.5633356e-06, train_mean_iou = 0.8267898, train_px_accuracy = 0.9991909 (3.311 sec)
+INFO:tensorflow:cross_entropy = 0.0055243163, learning_rate = 2.5623222e-06, train_mean_iou = 0.8273422, train_px_accuracy = 0.99918896 (3.315 sec)
+INFO:tensorflow:cross_entropy = 0.005804451, learning_rate = 2.5613087e-06, train_mean_iou = 0.8278676, train_px_accuracy = 0.99919176 (3.332 sec)
+INFO:tensorflow:cross_entropy = 0.0043365583, learning_rate = 2.560296e-06, train_mean_iou = 0.83039695, train_px_accuracy = 0.99920857 (3.310 sec)
+INFO:tensorflow:global_step/sec: 2.95153
+INFO:tensorflow:cross_entropy = 0.004326273, learning_rate = 2.5592826e-06, train_mean_iou = 0.8305067, train_px_accuracy = 0.99921983 (4.041 sec)
+INFO:tensorflow:loss = 0.0901595, step = 81710 (33.881 sec)
+INFO:tensorflow:cross_entropy = 0.004879731, learning_rate = 2.558269e-06, train_mean_iou = 0.83025074, train_px_accuracy = 0.9992236 (3.316 sec)
+INFO:tensorflow:cross_entropy = 0.0053848918, learning_rate = 2.5572556e-06, train_mean_iou = 0.8305551, train_px_accuracy = 0.9992253 (3.307 sec)
+INFO:tensorflow:cross_entropy = 0.0022357285, learning_rate = 2.5562426e-06, train_mean_iou = 0.83102554, train_px_accuracy = 0.99924576 (3.328 sec)
+INFO:tensorflow:cross_entropy = 0.0076308814, learning_rate = 2.555229e-06, train_mean_iou = 0.83591443, train_px_accuracy = 0.99924135 (3.313 sec)
+INFO:tensorflow:cross_entropy = 0.0064464905, learning_rate = 2.5542151e-06, train_mean_iou = 0.8351094, train_px_accuracy = 0.9992364 (3.311 sec)
+INFO:tensorflow:cross_entropy = 0.007488733, learning_rate = 2.5532013e-06, train_mean_iou = 0.8367039, train_px_accuracy = 0.99923015 (3.328 sec)
+INFO:tensorflow:cross_entropy = 0.00198453, learning_rate = 2.552188e-06, train_mean_iou = 0.83712864, train_px_accuracy = 0.9992491 (3.341 sec)
+INFO:tensorflow:cross_entropy = 0.004734307, learning_rate = 2.551174e-06, train_mean_iou = 0.8377852, train_px_accuracy = 0.99925303 (3.321 sec)
+INFO:tensorflow:cross_entropy = 0.007929978, learning_rate = 2.5501604e-06, train_mean_iou = 0.84058475, train_px_accuracy = 0.9992459 (3.319 sec)
+INFO:tensorflow:global_step/sec: 2.95117
+INFO:tensorflow:cross_entropy = 0.0021709283, learning_rate = 2.549147e-06, train_mean_iou = 0.84077615, train_px_accuracy = 0.99926156 (4.002 sec)
+INFO:tensorflow:loss = 0.087913916, step = 81810 (33.886 sec)
+INFO:tensorflow:cross_entropy = 0.0049153278, learning_rate = 2.5481327e-06, train_mean_iou = 0.84220165, train_px_accuracy = 0.99926555 (3.322 sec)
+INFO:tensorflow:cross_entropy = 0.0039061932, learning_rate = 2.5471188e-06, train_mean_iou = 0.84225005, train_px_accuracy = 0.9992726 (3.321 sec)
+INFO:tensorflow:cross_entropy = 0.0066677546, learning_rate = 2.5461043e-06, train_mean_iou = 0.84349144, train_px_accuracy = 0.9992696 (3.343 sec)
+INFO:tensorflow:cross_entropy = 0.0024545626, learning_rate = 2.5450909e-06, train_mean_iou = 0.843736, train_px_accuracy = 0.99928117 (3.314 sec)
+INFO:tensorflow:cross_entropy = 0.0049486146, learning_rate = 2.5440766e-06, train_mean_iou = 0.8435896, train_px_accuracy = 0.99928206 (3.323 sec)
+INFO:tensorflow:cross_entropy = 0.011362718, learning_rate = 2.5430622e-06, train_mean_iou = 0.8416456, train_px_accuracy = 0.9992598 (3.321 sec)
+INFO:tensorflow:cross_entropy = 0.0033114913, learning_rate = 2.5420484e-06, train_mean_iou = 0.84212875, train_px_accuracy = 0.9992699 (3.332 sec)
+INFO:tensorflow:cross_entropy = 0.0019331977, learning_rate = 2.5410338e-06, train_mean_iou = 0.8421723, train_px_accuracy = 0.99928206 (3.322 sec)
+INFO:tensorflow:cross_entropy = 0.0045739813, learning_rate = 2.5400195e-06, train_mean_iou = 0.84306794, train_px_accuracy = 0.99928474 (3.317 sec)
+INFO:tensorflow:global_step/sec: 2.94989
+INFO:tensorflow:cross_entropy = 0.007387179, learning_rate = 2.5390048e-06, train_mean_iou = 0.8436966, train_px_accuracy = 0.9992779 (3.985 sec)
+INFO:tensorflow:loss = 0.093038976, step = 81910 (33.899 sec)
+INFO:tensorflow:cross_entropy = 0.0021895855, learning_rate = 2.5379907e-06, train_mean_iou = 0.8440118, train_px_accuracy = 0.9992889 (3.325 sec)
+INFO:tensorflow:cross_entropy = 0.0055574565, learning_rate = 2.5369761e-06, train_mean_iou = 0.8442473, train_px_accuracy = 0.99928755 (3.320 sec)
+INFO:tensorflow:cross_entropy = 0.004841977, learning_rate = 2.5359614e-06, train_mean_iou = 0.844594, train_px_accuracy = 0.999289 (3.339 sec)
+INFO:tensorflow:cross_entropy = 0.0033713183, learning_rate = 2.5349466e-06, train_mean_iou = 0.84576494, train_px_accuracy = 0.99929523 (3.315 sec)
+INFO:tensorflow:cross_entropy = 0.0038870233, learning_rate = 2.5339323e-06, train_mean_iou = 0.8459355, train_px_accuracy = 0.9993007 (3.326 sec)
+INFO:tensorflow:cross_entropy = 0.0037939027, learning_rate = 2.5329173e-06, train_mean_iou = 0.8460779, train_px_accuracy = 0.99930334 (3.342 sec)
+INFO:tensorflow:cross_entropy = 0.004261178, learning_rate = 2.5319023e-06, train_mean_iou = 0.8463036, train_px_accuracy = 0.9993067 (3.339 sec)
+INFO:tensorflow:cross_entropy = 0.001773693, learning_rate = 2.530888e-06, train_mean_iou = 0.846665, train_px_accuracy = 0.99931633 (3.324 sec)
+INFO:tensorflow:cross_entropy = 0.006782821, learning_rate = 2.529873e-06, train_mean_iou = 0.8491166, train_px_accuracy = 0.9993151 (3.337 sec)
+INFO:tensorflow:global_step/sec: 2.94484
+INFO:tensorflow:cross_entropy = 0.0042779725, learning_rate = 2.5288577e-06, train_mean_iou = 0.84897166, train_px_accuracy = 0.99931675 (3.990 sec)
+INFO:tensorflow:loss = 0.08983759, step = 82010 (33.957 sec)
+INFO:tensorflow:cross_entropy = 0.007828561, learning_rate = 2.5278428e-06, train_mean_iou = 0.85041684, train_px_accuracy = 0.9993116 (3.328 sec)
+INFO:tensorflow:cross_entropy = 0.0018822997, learning_rate = 2.5268278e-06, train_mean_iou = 0.8505607, train_px_accuracy = 0.9993205 (3.325 sec)
+INFO:tensorflow:cross_entropy = 0.004199444, learning_rate = 2.5258128e-06, train_mean_iou = 0.85061115, train_px_accuracy = 0.99932224 (3.317 sec)
+INFO:tensorflow:cross_entropy = 0.008503137, learning_rate = 2.5247973e-06, train_mean_iou = 0.8516251, train_px_accuracy = 0.99931574 (3.355 sec)
+INFO:tensorflow:cross_entropy = 0.0021324414, learning_rate = 2.5237823e-06, train_mean_iou = 0.8516143, train_px_accuracy = 0.99932355 (3.331 sec)
+INFO:tensorflow:cross_entropy = 0.003512962, learning_rate = 2.522767e-06, train_mean_iou = 0.85187995, train_px_accuracy = 0.9993275 (3.327 sec)
+INFO:tensorflow:cross_entropy = 0.003578247, learning_rate = 2.5217516e-06, train_mean_iou = 0.8518876, train_px_accuracy = 0.99933064 (3.331 sec)
+INFO:tensorflow:cross_entropy = 0.0056516714, learning_rate = 2.520736e-06, train_mean_iou = 0.85223824, train_px_accuracy = 0.9993297 (3.336 sec)
+INFO:tensorflow:cross_entropy = 0.002526917, learning_rate = 2.519721e-06, train_mean_iou = 0.85246277, train_px_accuracy = 0.99933535 (3.339 sec)
+INFO:tensorflow:global_step/sec: 2.94274
+INFO:tensorflow:cross_entropy = 0.004275419, learning_rate = 2.5187053e-06, train_mean_iou = 0.8524683, train_px_accuracy = 0.9993354 (3.993 sec)
+INFO:tensorflow:loss = 0.08974258, step = 82110 (33.983 sec)
+INFO:tensorflow:cross_entropy = 0.008372929, learning_rate = 2.5176894e-06, train_mean_iou = 0.85178536, train_px_accuracy = 0.99932754 (3.321 sec)
+INFO:tensorflow:cross_entropy = 0.0032191924, learning_rate = 2.5166737e-06, train_mean_iou = 0.8520301, train_px_accuracy = 0.9993327 (3.344 s
+INFO:tensorflow:cross_entropy = 0.002515527, learning_rate = 2.5156583e-06, train_mean_iou = 0.8517577, train_px_accuracy = 0.9993387 (3.345 se
+INFO:tensorflow:cross_entropy = 0.0046558627, learning_rate = 2.5146426e-06, train_mean_iou = 0.8523078, train_px_accuracy = 0.9993391 (3.334 s
+INFO:tensorflow:cross_entropy = 0.0068868403, learning_rate = 2.5136264e-06, train_mean_iou = 0.85271233, train_px_accuracy = 0.9993345 (3.334 )
+INFO:tensorflow:cross_entropy = 0.0018967674, learning_rate = 2.512611e-06, train_mean_iou = 0.85289246, train_px_accuracy = 0.9993415 (3.315 s
+INFO:tensorflow:cross_entropy = 0.005260259, learning_rate = 2.511595e-06, train_mean_iou = 0.85300636, train_px_accuracy = 0.9993409 (3.332 se
+INFO:tensorflow:cross_entropy = 0.0048100078, learning_rate = 2.5105787e-06, train_mean_iou = 0.853148, train_px_accuracy = 0.99934196 (3.336 s
+INFO:tensorflow:cross_entropy = 0.002317003, learning_rate = 2.5095626e-06, train_mean_iou = 0.85372543, train_px_accuracy = 0.99934703 (3.327 )
+INFO:tensorflow:global_step/sec: 2.94069
+INFO:tensorflow:cross_entropy = 0.0029137023, learning_rate = 2.5085467e-06, train_mean_iou = 0.85379, train_px_accuracy = 0.99935114 (4.018 se
+INFO:tensorflow:loss = 0.0882874, step = 82210 (34.006 sec)
+INFO:tensorflow:cross_entropy = 0.0034086774, learning_rate = 2.5075306e-06, train_mean_iou = 0.854061, train_px_accuracy = 0.9993531 (3.331 se
+INFO:tensorflow:cross_entropy = 0.003527558, learning_rate = 2.5065142e-06, train_mean_iou = 0.8543802, train_px_accuracy = 0.9993561 (3.329 se
+INFO:tensorflow:cross_entropy = 0.0023639502, learning_rate = 2.5054983e-06, train_mean_iou = 0.8545493, train_px_accuracy = 0.9993604 (3.332 s
+INFO:tensorflow:cross_entropy = 0.005929996, learning_rate = 2.5044817e-06, train_mean_iou = 0.8557277, train_px_accuracy = 0.99935955 (3.323 s
+INFO:tensorflow:cross_entropy = 0.0037370517, learning_rate = 2.503465e-06, train_mean_iou = 0.8557254, train_px_accuracy = 0.999361 (3.319 sec
+INFO:tensorflow:cross_entropy = 0.009231288, learning_rate = 2.5024488e-06, train_mean_iou = 0.85573584, train_px_accuracy = 0.9993549 (3.345 s
+INFO:tensorflow:cross_entropy = 0.0020241754, learning_rate = 2.5014326e-06, train_mean_iou = 0.8559004, train_px_accuracy = 0.99936056 (3.349 )
+INFO:tensorflow:cross_entropy = 0.0040860516, learning_rate = 2.5004158e-06, train_mean_iou = 0.85592014, train_px_accuracy = 0.99936205 (3.310c)
+INFO:tensorflow:cross_entropy = 0.0091763865, learning_rate = 2.499399e-06, train_mean_iou = 0.85642, train_px_accuracy = 0.9993542 (3.324 sec)
+INFO:tensorflow:global_step/sec: 2.94831
+INFO:tensorflow:cross_entropy = 0.002978386, learning_rate = 2.4983829e-06, train_mean_iou = 0.85618114, train_px_accuracy = 0.9993577 (3.955 s
+INFO:tensorflow:loss = 0.0882581, step = 82310 (33.916 sec)
+INFO:tensorflow:cross_entropy = 0.0026385759, learning_rate = 2.4973658e-06, train_mean_iou = 0.8561323, train_px_accuracy = 0.999361 (3.328 se
+INFO:tensorflow:cross_entropy = 0.0034307952, learning_rate = 2.496349e-06, train_mean_iou = 0.85620826, train_px_accuracy = 0.9993638 (3.317 s
+INFO:tensorflow:cross_entropy = 0.004726453, learning_rate = 2.495332e-06, train_mean_iou = 0.8563223, train_px_accuracy = 0.99936324 (3.332 se
+INFO:tensorflow:cross_entropy = 0.00234939, learning_rate = 2.4943156e-06, train_mean_iou = 0.8563991, train_px_accuracy = 0.9993671 (3.334 sec
+INFO:tensorflow:cross_entropy = 0.004547564, learning_rate = 2.4932983e-06, train_mean_iou = 0.8563379, train_px_accuracy = 0.9993662 (3.317 se
+INFO:tensorflow:cross_entropy = 0.006230616, learning_rate = 2.4922813e-06, train_mean_iou = 0.85632706, train_px_accuracy = 0.9993643 (3.340 s
+INFO:tensorflow:cross_entropy = 0.0034426495, learning_rate = 2.491264e-06, train_mean_iou = 0.85652775, train_px_accuracy = 0.99936706 (3.326 )
+INFO:tensorflow:cross_entropy = 0.0029312202, learning_rate = 2.4902472e-06, train_mean_iou = 0.85641235, train_px_accuracy = 0.9993706 (3.326 )
+INFO:tensorflow:cross_entropy = 0.005017421, learning_rate = 2.4892297e-06, train_mean_iou = 0.85649574, train_px_accuracy = 0.99936944 (3.328 )
+INFO:tensorflow:global_step/sec: 2.94323
+INFO:tensorflow:cross_entropy = 0.0063973055, learning_rate = 2.4882127e-06, train_mean_iou = 0.85665244, train_px_accuracy = 0.9993662 (4.030 )
+INFO:tensorflow:loss = 0.091583185, step = 82410 (33.978 sec)
+INFO:tensorflow:cross_entropy = 0.0022522926, learning_rate = 2.4871956e-06, train_mean_iou = 0.8567295, train_px_accuracy = 0.99937004 (3.325 )
+INFO:tensorflow:cross_entropy = 0.006763998, learning_rate = 2.4861781e-06, train_mean_iou = 0.85698193, train_px_accuracy = 0.9993687 (3.329 s
+INFO:tensorflow:cross_entropy = 0.0054235626, learning_rate = 2.4851606e-06, train_mean_iou = 0.8570449, train_px_accuracy = 0.9993678 (3.350 s
+INFO:tensorflow:cross_entropy = 0.004206541, learning_rate = 2.4841427e-06, train_mean_iou = 0.8571506, train_px_accuracy = 0.9993686 (3.331 se
+INFO:tensorflow:cross_entropy = 0.0025213086, learning_rate = 2.4831259e-06, train_mean_iou = 0.8571989, train_px_accuracy = 0.9993721 (3.341 s
+INFO:tensorflow:cross_entropy = 0.004217228, learning_rate = 2.482108e-06, train_mean_iou = 0.8574562, train_px_accuracy = 0.9993727 (3.321 sec
+INFO:tensorflow:cross_entropy = 0.004740407, learning_rate = 2.4810902e-06, train_mean_iou = 0.8577371, train_px_accuracy = 0.9993733 (3.316 se
+INFO:tensorflow:cross_entropy = 0.0024249696, learning_rate = 2.480073e-06, train_mean_iou = 0.85770977, train_px_accuracy = 0.9993763 (3.334 s
+INFO:tensorflow:cross_entropy = 0.0060011437, learning_rate = 2.479055e-06, train_mean_iou = 0.85814667, train_px_accuracy = 0.9993749 (3.325 s
+INFO:tensorflow:global_step/sec: 2.94314
+INFO:tensorflow:cross_entropy = 0.0036746722, learning_rate = 2.478037e-06, train_mean_iou = 0.85805714, train_px_accuracy = 0.9993756 (4.005 s
+INFO:tensorflow:loss = 0.088765636, step = 82510 (33.977 sec)
+INFO:tensorflow:cross_entropy = 0.009908217, learning_rate = 2.4770186e-06, train_mean_iou = 0.85834044, train_px_accuracy = 0.9993704 (3.336 s
+INFO:tensorflow:cross_entropy = 0.002222699, learning_rate = 2.4760013e-06, train_mean_iou = 0.858456, train_px_accuracy = 0.9993737 (3.353 sec
+INFO:tensorflow:cross_entropy = 0.0044745733, learning_rate = 2.4749831e-06, train_mean_iou = 0.8583026, train_px_accuracy = 0.9993738 (3.316 s
+INFO:tensorflow:cross_entropy = 0.012017524, learning_rate = 2.4739647e-06, train_mean_iou = 0.8579854, train_px_accuracy = 0.9993638 (3.327 se
+INFO:tensorflow:cross_entropy = 0.0037894042, learning_rate = 2.4729468e-06, train_mean_iou = 0.85779124, train_px_accuracy = 0.9993656 (3.316 )
+INFO:tensorflow:cross_entropy = 0.0027284909, learning_rate = 2.471929e-06, train_mean_iou = 0.85775405, train_px_accuracy = 0.99936855 (3.324 )
+INFO:tensorflow:cross_entropy = 0.0037178432, learning_rate = 2.4709104e-06, train_mean_iou = 0.85774606, train_px_accuracy = 0.9993696 (3.334 )
+INFO:tensorflow:cross_entropy = 0.005527162, learning_rate = 2.469892e-06, train_mean_iou = 0.85774356, train_px_accuracy = 0.99936837 (3.333 s
+INFO:tensorflow:cross_entropy = 0.0025047902, learning_rate = 2.468874e-06, train_mean_iou = 0.85764736, train_px_accuracy = 0.99937075 (3.330 )
+INFO:tensorflow:global_step/sec: 2.94647
+INFO:tensorflow:cross_entropy = 0.004895865, learning_rate = 2.4678557e-06, train_mean_iou = 0.85764617, train_px_accuracy = 0.99937034 (3.970 )
+INFO:tensorflow:loss = 0.089892074, step = 82610 (33.939 sec)
+INFO:tensorflow:cross_entropy = 0.0061619543, learning_rate = 2.466837e-06, train_mean_iou = 0.8576603, train_px_accuracy = 0.9993696 (3.316 se
+INFO:tensorflow:cross_entropy = 0.003630057, learning_rate = 2.4658182e-06, train_mean_iou = 0.85806066, train_px_accuracy = 0.99937123 (3.310 )
+INFO:tensorflow:cross_entropy = 0.0042892713, learning_rate = 2.4648002e-06, train_mean_iou = 0.85786754, train_px_accuracy = 0.99937165 (3.328c)
+INFO:tensorflow:cross_entropy = 0.005300024, learning_rate = 2.4637814e-06, train_mean_iou = 0.85783017, train_px_accuracy = 0.9993699 (3.324 s
+INFO:tensorflow:cross_entropy = 0.0065172366, learning_rate = 2.4627625e-06, train_mean_iou = 0.8579675, train_px_accuracy = 0.9993688 (3.337 s
+INFO:tensorflow:cross_entropy = 0.0030695728, learning_rate = 2.461744e-06, train_mean_iou = 0.858067, train_px_accuracy = 0.99937135 (3.336 se
+INFO:tensorflow:cross_entropy = 0.008256432, learning_rate = 2.4607252e-06, train_mean_iou = 0.8581916, train_px_accuracy = 0.9993682 (3.335 se
+INFO:tensorflow:cross_entropy = 0.0070301886, learning_rate = 2.459706e-06, train_mean_iou = 0.85779065, train_px_accuracy = 0.9993645 (3.333 s
+INFO:tensorflow:cross_entropy = 0.0059918007, learning_rate = 2.4586868e-06, train_mean_iou = 0.8579584, train_px_accuracy = 0.99936414 (3.320 )
+INFO:tensorflow:global_step/sec: 2.93933
+INFO:tensorflow:cross_entropy = 0.0022748262, learning_rate = 2.4576684e-06, train_mean_iou = 0.85803604, train_px_accuracy = 0.99936754 (4.081c)
+INFO:tensorflow:loss = 0.08717702, step = 82710 (34.021 sec)
+INFO:tensorflow:cross_entropy = 0.004751926, learning_rate = 2.456649e-06, train_mean_iou = 0.85828316, train_px_accuracy = 0.9993679 (3.331 se
+INFO:tensorflow:cross_entropy = 0.0068079783, learning_rate = 2.4556298e-06, train_mean_iou = 0.858283, train_px_accuracy = 0.99936575 (3.319 s
+INFO:tensorflow:cross_entropy = 0.003235793, learning_rate = 2.4546107e-06, train_mean_iou = 0.8581119, train_px_accuracy = 0.9993673 (3.312 se
+INFO:tensorflow:cross_entropy = 0.006140129, learning_rate = 2.4535918e-06, train_mean_iou = 0.85813427, train_px_accuracy = 0.99936646 (3.333 )
+INFO:tensorflow:cross_entropy = 0.003717252, learning_rate = 2.4525723e-06, train_mean_iou = 0.8581186, train_px_accuracy = 0.9993677 (3.323 se
+INFO:tensorflow:cross_entropy = 0.010231176, learning_rate = 2.4515527e-06, train_mean_iou = 0.85798794, train_px_accuracy = 0.99936295 (3.325 )
+INFO:tensorflow:cross_entropy = 0.002831866, learning_rate = 2.4505339e-06, train_mean_iou = 0.8580123, train_px_accuracy = 0.99936515 (3.334 s
+INFO:tensorflow:cross_entropy = 0.0054004877, learning_rate = 2.4495143e-06, train_mean_iou = 0.85781354, train_px_accuracy = 0.99936384 (3.305c)
+INFO:tensorflow:cross_entropy = 0.015341643, learning_rate = 2.4484943e-06, train_mean_iou = 0.85742754, train_px_accuracy = 0.9993554 (3.331 s
+INFO:tensorflow:global_step/sec: 2.95113
+INFO:tensorflow:cross_entropy = 0.004337347, learning_rate = 2.4474746e-06, train_mean_iou = 0.8575233, train_px_accuracy = 0.999357 (3.972 sec
+INFO:tensorflow:loss = 0.08914864, step = 82810 (33.885 sec)
+INFO:tensorflow:cross_entropy = 0.003261117, learning_rate = 2.4464555e-06, train_mean_iou = 0.85748243, train_px_accuracy = 0.99935883 (3.341 )
+INFO:tensorflow:cross_entropy = 0.0045582266, learning_rate = 2.4454355e-06, train_mean_iou = 0.8574385, train_px_accuracy = 0.9993586 (3.322 s
+INFO:tensorflow:cross_entropy = 0.0070932186, learning_rate = 2.4444155e-06, train_mean_iou = 0.8574437, train_px_accuracy = 0.9993564 (3.311 s
+INFO:tensorflow:cross_entropy = 0.0025784825, learning_rate = 2.4433962e-06, train_mean_iou = 0.8575188, train_px_accuracy = 0.999359 (3.318 se
+INFO:tensorflow:cross_entropy = 0.0067226877, learning_rate = 2.4423762e-06, train_mean_iou = 0.8575162, train_px_accuracy = 0.99935865 (3.321 )
+INFO:tensorflow:cross_entropy = 0.0069291075, learning_rate = 2.441356e-06, train_mean_iou = 0.85738415, train_px_accuracy = 0.99935645 (3.336 )
+INFO:tensorflow:cross_entropy = 0.00539744, learning_rate = 2.4403357e-06, train_mean_iou = 0.8573246, train_px_accuracy = 0.99935585 (3.309 se
+INFO:tensorflow:cross_entropy = 0.0055086277, learning_rate = 2.4393162e-06, train_mean_iou = 0.85719585, train_px_accuracy = 0.99935555 (3.321c)
+INFO:tensorflow:cross_entropy = 0.0053212233, learning_rate = 2.438296e-06, train_mean_iou = 0.8571399, train_px_accuracy = 0.9993556 (3.325 se
+INFO:tensorflow:global_step/sec: 2.94703
+INFO:tensorflow:cross_entropy = 0.0057842555, learning_rate = 2.4372755e-06, train_mean_iou = 0.85720795, train_px_accuracy = 0.9993549 (4.027 )
+INFO:tensorflow:loss = 0.0905057, step = 82910 (33.932 sec)
+INFO:tensorflow:cross_entropy = 0.0035661461, learning_rate = 2.4362553e-06, train_mean_iou = 0.85705817, train_px_accuracy = 0.9993559 (3.325 )
+INFO:tensorflow:cross_entropy = 0.010220082, learning_rate = 2.435235e-06, train_mean_iou = 0.85691327, train_px_accuracy = 0.9993513 (3.331 se
+INFO:tensorflow:Saving checkpoints for 82940 into ./my_model/model.ckpt.
+INFO:tensorflow:Loss for final step: 0.089521796.
+INFO:tensorflow:Start evaluation.
+INFO:tensorflow:-------------------
+INFO:tensorflow:Calling model_fn.
+[None, 321, 321, 1]
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2022-06-29-18:13:45
+INFO:tensorflow:Graph was finalized.
+2022-06-30 02:13:45.934611: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2022-06-30 02:13:45.934669: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge mat:
+2022-06-30 02:13:45.934679: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0
+2022-06-30 02:13:45.934688: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N
+2022-06-30 02:13:45.934772: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0vice:GPU:0 with 10240 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:b2:00.0, compute capability: 7.5)
+INFO:tensorflow:Restoring parameters from ./my_model/model.ckpt-82940
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2022-06-29-18:13:50
+INFO:tensorflow:Saving dict for global step 82940: global_step = 82940, loss = 0.1090099, mean_iou = 0.6950751, px_accuracy = 0.9988634
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 82940: ./my_model/model.ckpt-82940
+{'loss': 0.1090099, 'mean_iou': 0.6950751, 'px_accuracy': 0.9988634, 'global_step': 82940}
+INFO:tensorflow:Start training.
+INFO:tensorflow:-------------------
+INFO:tensorflow:Calling model_fn.
+[None, 321, 321, 1]
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+2022-06-30 02:14:00.775562: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2022-06-30 02:14:00.775627: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge mat:
+2022-06-30 02:14:00.775639: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0
+2022-06-30 02:14:00.775648: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N
+2022-06-30 02:14:00.775738: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0vice:GPU:0 with 10240 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:b2:00.0, compute capability: 7.5)
+INFO:tensorflow:Restoring parameters from ./my_model/model.ckpt-82940
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 82940 into ./my_model/model.ckpt.
+INFO:tensorflow:cross_entropy = 0.014066583, learning_rate = 2.4342146e-06, train_mean_iou = 0.8390782, train_px_accuracy = 0.99849653
+INFO:tensorflow:loss = 0.098761864, step = 82940
+INFO:tensorflow:cross_entropy = 0.016354209, learning_rate = 2.4331941e-06, train_mean_iou = 0.8272374, train_px_accuracy = 0.99834543 (11.098 )
+INFO:tensorflow:cross_entropy = 0.003338926, learning_rate = 2.4321741e-06, train_mean_iou = 0.8219396, train_px_accuracy = 0.99874055 (3.301 s
+INFO:tensorflow:cross_entropy = 0.008580092, learning_rate = 2.4311535e-06, train_mean_iou = 0.82060707, train_px_accuracy = 0.99872625 (3.283 )
+INFO:tensorflow:cross_entropy = 0.014426386, learning_rate = 2.4301328e-06, train_mean_iou = 0.8204278, train_px_accuracy = 0.99860334 (3.314 s
+INFO:tensorflow:cross_entropy = 0.007174632, learning_rate = 2.4291119e-06, train_mean_iou = 0.8192824, train_px_accuracy = 0.99873126 (3.305 s
+INFO:tensorflow:cross_entropy = 0.0084628295, learning_rate = 2.4280916e-06, train_mean_iou = 0.82272434, train_px_accuracy = 0.99876785 (3.319c)
+INFO:tensorflow:cross_entropy = 0.007251831, learning_rate = 2.4270707e-06, train_mean_iou = 0.8217315, train_px_accuracy = 0.99878573 (3.312 s
+INFO:tensorflow:cross_entropy = 0.013718406, learning_rate = 2.4260496e-06, train_mean_iou = 0.81912386, train_px_accuracy = 0.99871224 (3.308 )
+INFO:tensorflow:cross_entropy = 0.004016228, learning_rate = 2.4250292e-06, train_mean_iou = 0.81998473, train_px_accuracy = 0.9987852 (3.352 s
+INFO:tensorflow:global_step/sec: 2.40348
+INFO:tensorflow:cross_entropy = 0.011263514, learning_rate = 2.424008e-06, train_mean_iou = 0.81911534, train_px_accuracy = 0.9987884 (4.015 se
+INFO:tensorflow:loss = 0.09588, step = 83040 (41.607 sec)
+INFO:tensorflow:cross_entropy = 0.023298068, learning_rate = 2.4229869e-06, train_mean_iou = 0.8188487, train_px_accuracy = 0.9986562 (3.353 se
+INFO:tensorflow:cross_entropy = 0.009561975, learning_rate = 2.4219655e-06, train_mean_iou = 0.81218284, train_px_accuracy = 0.99865866 (3.320 )
+INFO:tensorflow:cross_entropy = 0.0062055304, learning_rate = 2.4209446e-06, train_mean_iou = 0.81123877, train_px_accuracy = 0.99867916 (3.334c)
+INFO:tensorflow:cross_entropy = 0.009001139, learning_rate = 2.4199235e-06, train_mean_iou = 0.8135334, train_px_accuracy = 0.9986987 (3.329 se
+INFO:tensorflow:cross_entropy = 0.012265784, learning_rate = 2.4189019e-06, train_mean_iou = 0.8169116, train_px_accuracy = 0.99869066 (3.339 s
+INFO:tensorflow:cross_entropy = 0.003411015, learning_rate = 2.4178812e-06, train_mean_iou = 0.8182496, train_px_accuracy = 0.998744 (3.341 sec
+INFO:tensorflow:cross_entropy = 0.011025491, learning_rate = 2.4168596e-06, train_mean_iou = 0.8183373, train_px_accuracy = 0.998716 (3.326 sec
+INFO:tensorflow:cross_entropy = 0.00848651, learning_rate = 2.4158378e-06, train_mean_iou = 0.8189726, train_px_accuracy = 0.99872047 (3.352 se
+INFO:tensorflow:cross_entropy = 0.0068462263, learning_rate = 2.4148162e-06, train_mean_iou = 0.82180053, train_px_accuracy = 0.9987508 (3.350 )
+INFO:tensorflow:global_step/sec: 2.92836
+INFO:tensorflow:cross_entropy = 0.0064631714, learning_rate = 2.413795e-06, train_mean_iou = 0.82311505, train_px_accuracy = 0.9987801 (4.105 s
+INFO:tensorflow:loss = 0.0910076, step = 83140 (34.148 sec)
+INFO:tensorflow:cross_entropy = 0.007703911, learning_rate = 2.4127733e-06, train_mean_iou = 0.8237513, train_px_accuracy = 0.99878967 (3.344 s
+INFO:tensorflow:cross_entropy = 0.0071530025, learning_rate = 2.4117517e-06, train_mean_iou = 0.8238951, train_px_accuracy = 0.9987944 (3.333 s
+INFO:tensorflow:cross_entropy = 0.0053344597, learning_rate = 2.4107296e-06, train_mean_iou = 0.82396066, train_px_accuracy = 0.9988181 (3.352 )
+INFO:tensorflow:cross_entropy = 0.0111779105, learning_rate = 2.409708e-06, train_mean_iou = 0.8260476, train_px_accuracy = 0.9988179 (3.338 se
+INFO:tensorflow:cross_entropy = 0.008390429, learning_rate = 2.4086862e-06, train_mean_iou = 0.8259698, train_px_accuracy = 0.9988213 (3.351 se
+INFO:tensorflow:cross_entropy = 0.013756264, learning_rate = 2.407664e-06, train_mean_iou = 0.8278617, train_px_accuracy = 0.998804 (3.335 sec)
+INFO:tensorflow:cross_entropy = 0.0026414406, learning_rate = 2.4066426e-06, train_mean_iou = 0.8285304, train_px_accuracy = 0.9988343 (3.354 s
+INFO:tensorflow:cross_entropy = 0.006528662, learning_rate = 2.4056203e-06, train_mean_iou = 0.8289103, train_px_accuracy = 0.9988414 (3.362 se
+INFO:tensorflow:cross_entropy = 0.013612179, learning_rate = 2.404598e-06, train_mean_iou = 0.8301595, train_px_accuracy = 0.9988255 (3.374 sec
+INFO:tensorflow:global_step/sec: 2.9181
+INFO:tensorflow:cross_entropy = 0.005875854, learning_rate = 2.4035758e-06, train_mean_iou = 0.8312593, train_px_accuracy = 0.99884224 (4.125 s
+INFO:tensorflow:loss = 0.090349376, step = 83240 (34.270 sec)
+INFO:tensorflow:cross_entropy = 0.005942465, learning_rate = 2.402554e-06, train_mean_iou = 0.83143055, train_px_accuracy = 0.9988546 (3.334 se
+INFO:tensorflow:cross_entropy = 0.005610215, learning_rate = 2.4015317e-06, train_mean_iou = 0.8314485, train_px_accuracy = 0.99886495 (3.363 s
+INFO:tensorflow:cross_entropy = 0.009169548, learning_rate = 2.400509e-06, train_mean_iou = 0.8323465, train_px_accuracy = 0.9988619 (3.366 sec
+INFO:tensorflow:cross_entropy = 0.0030241455, learning_rate = 2.399487e-06, train_mean_iou = 0.8328743, train_px_accuracy = 0.9988834 (3.358 se
+INFO:tensorflow:cross_entropy = 0.007477293, learning_rate = 2.3984642e-06, train_mean_iou = 0.83315593, train_px_accuracy = 0.99888945 (3.347 )
+INFO:tensorflow:cross_entropy = 0.015228649, learning_rate = 2.3974414e-06, train_mean_iou = 0.83158875, train_px_accuracy = 0.9988636 (3.351 s
+INFO:tensorflow:cross_entropy = 0.0068805735, learning_rate = 2.3964187e-06, train_mean_iou = 0.8325396, train_px_accuracy = 0.99887264 (3.355 )
+INFO:tensorflow:cross_entropy = 0.005911021, learning_rate = 2.3953967e-06, train_mean_iou = 0.8320465, train_px_accuracy = 0.9988824 (3.346 se
+INFO:tensorflow:cross_entropy = 0.007223342, learning_rate = 2.3943737e-06, train_mean_iou = 0.83304197, train_px_accuracy = 0.9988851 (3.335 s
+INFO:tensorflow:global_step/sec: 2.92688
+INFO:tensorflow:cross_entropy = 0.010799801, learning_rate = 2.3933508e-06, train_mean_iou = 0.8340434, train_px_accuracy = 0.99887896 (4.009 s
+INFO:tensorflow:loss = 0.09520101, step = 83340 (34.165 sec)
+INFO:tensorflow:cross_entropy = 0.0032377944, learning_rate = 2.3923276e-06, train_mean_iou = 0.83442974, train_px_accuracy = 0.99889773 (3.337c)
+INFO:tensorflow:cross_entropy = 0.009313872, learning_rate = 2.3913053e-06, train_mean_iou = 0.8351245, train_px_accuracy = 0.998893 (3.335 sec
+INFO:tensorflow:cross_entropy = 0.007627705, learning_rate = 2.390282e-06, train_mean_iou = 0.8353433, train_px_accuracy = 0.99889356 (3.336 se
+INFO:tensorflow:cross_entropy = 0.004890431, learning_rate = 2.389259e-06, train_mean_iou = 0.83671826, train_px_accuracy = 0.9989047 (3.362 se
+INFO:tensorflow:cross_entropy = 0.0054329056, learning_rate = 2.3882362e-06, train_mean_iou = 0.8371259, train_px_accuracy = 0.9989151 (3.335 s
+INFO:tensorflow:cross_entropy = 0.005927515, learning_rate = 2.3872128e-06, train_mean_iou = 0.83766514, train_px_accuracy = 0.9989214 (3.375 s
+INFO:tensorflow:cross_entropy = 0.0057625063, learning_rate = 2.3861896e-06, train_mean_iou = 0.83787453, train_px_accuracy = 0.9989269 (3.344 )
+INFO:tensorflow:cross_entropy = 0.006492052, learning_rate = 2.385166e-06, train_mean_iou = 0.83733815, train_px_accuracy = 0.9989323 (3.362 se
+INFO:tensorflow:cross_entropy = 0.008852113, learning_rate = 2.384143e-06, train_mean_iou = 0.8392977, train_px_accuracy = 0.99893355 (3.355 se
+INFO:tensorflow:global_step/sec: 2.90865
+INFO:tensorflow:cross_entropy = 0.006273396, learning_rate = 2.3831196e-06, train_mean_iou = 0.83938897, train_px_accuracy = 0.9989385 (4.241 s
+INFO:tensorflow:loss = 0.09060184, step = 83440 (34.380 sec)
+INFO:tensorflow:cross_entropy = 0.013894926, learning_rate = 2.3820958e-06, train_mean_iou = 0.8409952, train_px_accuracy = 0.99892724 (3.363 s
+INFO:tensorflow:cross_entropy = 0.002842271, learning_rate = 2.381073e-06, train_mean_iou = 0.8412809, train_px_accuracy = 0.99894047 (3.336 se
+INFO:tensorflow:cross_entropy = 0.0064843865, learning_rate = 2.3800492e-06, train_mean_iou = 0.84118843, train_px_accuracy = 0.99894124 (3.323c)
+INFO:tensorflow:cross_entropy = 0.01560975, learning_rate = 2.3790253e-06, train_mean_iou = 0.8419646, train_px_accuracy = 0.9989269 (3.349 sec
+INFO:tensorflow:cross_entropy = 0.00537358, learning_rate = 2.3780015e-06, train_mean_iou = 0.84245193, train_px_accuracy = 0.9989361 (3.343 se
+INFO:tensorflow:cross_entropy = 0.0050663077, learning_rate = 2.376978e-06, train_mean_iou = 0.84250945, train_px_accuracy = 0.99894416 (3.328 )
+INFO:tensorflow:cross_entropy = 0.004950133, learning_rate = 2.3759542e-06, train_mean_iou = 0.84253883, train_px_accuracy = 0.9989503 (3.357 s
+INFO:tensorflow:cross_entropy = 0.00793608, learning_rate = 2.3749299e-06, train_mean_iou = 0.8428362, train_px_accuracy = 0.9989493 (3.359 sec
+INFO:tensorflow:cross_entropy = 0.0031770999, learning_rate = 2.3739058e-06, train_mean_iou = 0.84303427, train_px_accuracy = 0.998959 (3.351 s
+INFO:tensorflow:global_step/sec: 2.92582
+INFO:tensorflow:cross_entropy = 0.007593306, learning_rate = 2.3728824e-06, train_mean_iou = 0.8430138, train_px_accuracy = 0.99895996 (4.070 s
+INFO:tensorflow:loss = 0.09184934, step = 83540 (34.179 sec)
+INFO:tensorflow:cross_entropy = 0.011365862, learning_rate = 2.371858e-06, train_mean_iou = 0.842717, train_px_accuracy = 0.99895084 (3.341 sec
+INFO:tensorflow:cross_entropy = 0.006080512, learning_rate = 2.3708335e-06, train_mean_iou = 0.8432418, train_px_accuracy = 0.99895704 (3.381 s
+INFO:tensorflow:cross_entropy = 0.0053773066, learning_rate = 2.3698099e-06, train_mean_iou = 0.8431762, train_px_accuracy = 0.99896353 (3.343 )
+INFO:tensorflow:cross_entropy = 0.0064812414, learning_rate = 2.3687855e-06, train_mean_iou = 0.8437301, train_px_accuracy = 0.9989664 (3.348 s
+INFO:tensorflow:cross_entropy = 0.009790201, learning_rate = 2.367761e-06, train_mean_iou = 0.8446078, train_px_accuracy = 0.99896365 (3.336 se
+INFO:tensorflow:cross_entropy = 0.0054285214, learning_rate = 2.3667365e-06, train_mean_iou = 0.8442465, train_px_accuracy = 0.99897087 (3.348 )
+INFO:tensorflow:cross_entropy = 0.009288994, learning_rate = 2.3657124e-06, train_mean_iou = 0.84483546, train_px_accuracy = 0.9989681 (3.354 s
+INFO:tensorflow:cross_entropy = 0.0074686552, learning_rate = 2.3646876e-06, train_mean_iou = 0.84505624, train_px_accuracy = 0.99896926 (3.351c)
+INFO:tensorflow:cross_entropy = 0.00572095, learning_rate = 2.3636628e-06, train_mean_iou = 0.8458322, train_px_accuracy = 0.99897474 (3.339 se
+INFO:tensorflow:global_step/sec: 2.92642
+INFO:tensorflow:cross_entropy = 0.0045077736, learning_rate = 2.362639e-06, train_mean_iou = 0.8460542, train_px_accuracy = 0.998982 (4.031 sec
+INFO:tensorflow:loss = 0.088690214, step = 83640 (34.172 sec)
+INFO:tensorflow:cross_entropy = 0.005059773, learning_rate = 2.361614e-06, train_mean_iou = 0.84664494, train_px_accuracy = 0.99898577 (3.342 s
+INFO:tensorflow:cross_entropy = 0.0069252015, learning_rate = 2.3605887e-06, train_mean_iou = 0.8471188, train_px_accuracy = 0.99898714 (3.348 )
+INFO:tensorflow:cross_entropy = 0.0054501696, learning_rate = 2.3595637e-06, train_mean_iou = 0.8472899, train_px_accuracy = 0.9989918 (3.343 s
+INFO:tensorflow:cross_entropy = 0.0072115716, learning_rate = 2.3585396e-06, train_mean_iou = 0.84833705, train_px_accuracy = 0.9989941 (3.363 )
+INFO:tensorflow:cross_entropy = 0.005520411, learning_rate = 2.3575142e-06, train_mean_iou = 0.848371, train_px_accuracy = 0.9989972 (3.366 sec
+INFO:tensorflow:cross_entropy = 0.013949897, learning_rate = 2.356489e-06, train_mean_iou = 0.8490998, train_px_accuracy = 0.99898934 (3.352 se
+INFO:tensorflow:cross_entropy = 0.002864914, learning_rate = 2.3554637e-06, train_mean_iou = 0.84936327, train_px_accuracy = 0.9989982 (3.348 s
+INFO:tensorflow:cross_entropy = 0.0068270382, learning_rate = 2.3544392e-06, train_mean_iou = 0.8493503, train_px_accuracy = 0.9989994 (3.333 s
+INFO:tensorflow:cross_entropy = 0.018094132, learning_rate = 2.3534137e-06, train_mean_iou = 0.84957504, train_px_accuracy = 0.99898535 (3.361 )
+INFO:tensorflow:global_step/sec: 2.92084
+INFO:tensorflow:cross_entropy = 0.0053326096, learning_rate = 2.3523883e-06, train_mean_iou = 0.84993964, train_px_accuracy = 0.99899006 (4.080c)
+INFO:tensorflow:loss = 0.08944177, step = 83740 (34.236 sec)
+INFO:tensorflow:cross_entropy = 0.0048486255, learning_rate = 2.3513635e-06, train_mean_iou = 0.8499916, train_px_accuracy = 0.99899477 (3.349 )
+INFO:tensorflow:cross_entropy = 0.005125299, learning_rate = 2.350338e-06, train_mean_iou = 0.8500017, train_px_accuracy = 0.998998 (3.362 sec)
+INFO:tensorflow:cross_entropy = 0.008967279, learning_rate = 2.3493124e-06, train_mean_iou = 0.8502003, train_px_accuracy = 0.9989971 (3.372 se
+INFO:tensorflow:cross_entropy = 0.0031278594, learning_rate = 2.3482867e-06, train_mean_iou = 0.8502741, train_px_accuracy = 0.9990046 (3.365 s
+INFO:tensorflow:cross_entropy = 0.007937221, learning_rate = 2.3472614e-06, train_mean_iou = 0.85022986, train_px_accuracy = 0.9990048 (3.335 s
+INFO:tensorflow:cross_entropy = 0.009705264, learning_rate = 2.3462355e-06, train_mean_iou = 0.85009485, train_px_accuracy = 0.999 (3.340 sec)
+INFO:tensorflow:cross_entropy = 0.0062401355, learning_rate = 2.3452096e-06, train_mean_iou = 0.8507591, train_px_accuracy = 0.9990036 (3.320 s
+INFO:tensorflow:cross_entropy = 0.0056423997, learning_rate = 2.3441842e-06, train_mean_iou = 0.8507372, train_px_accuracy = 0.99900705 (3.324 )
+INFO:tensorflow:cross_entropy = 0.0062577114, learning_rate = 2.3431585e-06, train_mean_iou = 0.85097677, train_px_accuracy = 0.9990093 (3.305 )
+INFO:tensorflow:global_step/sec: 2.93742
+INFO:tensorflow:cross_entropy = 0.009298082, learning_rate = 2.3421323e-06, train_mean_iou = 0.85132724, train_px_accuracy = 0.99900633 (3.972 )
+INFO:tensorflow:loss = 0.09333368, step = 83840 (34.044 sec)
+INFO:tensorflow:cross_entropy = 0.0066466983, learning_rate = 2.3411062e-06, train_mean_iou = 0.8512835, train_px_accuracy = 0.9990094 (3.307 s
+INFO:tensorflow:cross_entropy = 0.011674699, learning_rate = 2.3400805e-06, train_mean_iou = 0.8515558, train_px_accuracy = 0.99900454 (3.325 s
+INFO:tensorflow:cross_entropy = 0.008179708, learning_rate = 2.3390542e-06, train_mean_iou = 0.8516801, train_px_accuracy = 0.9990044 (3.312 se
+INFO:tensorflow:cross_entropy = 0.008463805, learning_rate = 2.338028e-06, train_mean_iou = 0.85221964, train_px_accuracy = 0.99900424 (3.308 s
+INFO:tensorflow:cross_entropy = 0.004852214, learning_rate = 2.3370014e-06, train_mean_iou = 0.8522099, train_px_accuracy = 0.9990088 (3.322 se
+INFO:tensorflow:cross_entropy = 0.005715718, learning_rate = 2.3359755e-06, train_mean_iou = 0.85239875, train_px_accuracy = 0.9990104 (3.321 s
+INFO:tensorflow:cross_entropy = 0.008782901, learning_rate = 2.3349492e-06, train_mean_iou = 0.8525342, train_px_accuracy = 0.9990088 (3.345 se
+INFO:tensorflow:cross_entropy = 0.005280175, learning_rate = 2.3339226e-06, train_mean_iou = 0.8526351, train_px_accuracy = 0.99901223 (3.349 s
+INFO:tensorflow:cross_entropy = 0.008199297, learning_rate = 2.3328967e-06, train_mean_iou = 0.8530354, train_px_accuracy = 0.9990127 (3.350 se
+INFO:tensorflow:global_step/sec: 2.93871
+INFO:tensorflow:cross_entropy = 0.0052981493, learning_rate = 2.3318698e-06, train_mean_iou = 0.8529689, train_px_accuracy = 0.99901474 (4.088 )
+INFO:tensorflow:loss = 0.08926062, step = 83940 (34.027 sec)
+INFO:tensorflow:cross_entropy = 0.013546535, learning_rate = 2.3308428e-06, train_mean_iou = 0.85296816, train_px_accuracy = 0.9990072 (3.335 s
+INFO:tensorflow:cross_entropy = 0.0032268288, learning_rate = 2.3298162e-06, train_mean_iou = 0.8531254, train_px_accuracy = 0.99901336 (3.342 )
+INFO:tensorflow:cross_entropy = 0.008580546, learning_rate = 2.3287898e-06, train_mean_iou = 0.85305434, train_px_accuracy = 0.99901223 (3.359 )
+INFO:tensorflow:cross_entropy = 0.020347906, learning_rate = 2.327763e-06, train_mean_iou = 0.8529702, train_px_accuracy = 0.99899864 (3.353 se
+INFO:tensorflow:cross_entropy = 0.006549414, learning_rate = 2.326736e-06, train_mean_iou = 0.853075, train_px_accuracy = 0.99900085 (3.339 sec
+INFO:tensorflow:cross_entropy = 0.0049625076, learning_rate = 2.3257094e-06, train_mean_iou = 0.85299236, train_px_accuracy = 0.99900377 (3.340c)
+INFO:tensorflow:cross_entropy = 0.006218678, learning_rate = 2.3246823e-06, train_mean_iou = 0.85301197, train_px_accuracy = 0.99900526 (3.352 )
+INFO:tensorflow:cross_entropy = 0.009386338, learning_rate = 2.323655e-06, train_mean_iou = 0.8531494, train_px_accuracy = 0.99900395 (3.347 se
+INFO:tensorflow:cross_entropy = 0.0036700994, learning_rate = 2.3226278e-06, train_mean_iou = 0.853175, train_px_accuracy = 0.99900883 (3.350 s
+INFO:tensorflow:global_step/sec: 2.92332
+INFO:tensorflow:cross_entropy = 0.008899721, learning_rate = 2.321601e-06, train_mean_iou = 0.8530637, train_px_accuracy = 0.99900657 (4.092 se
+INFO:tensorflow:loss = 0.09278933, step = 84040 (34.210 sec)
+INFO:tensorflow:cross_entropy = 0.009484986, learning_rate = 2.3205737e-06, train_mean_iou = 0.8530394, train_px_accuracy = 0.9990044 (3.361 se
+INFO:tensorflow:cross_entropy = 0.0068474314, learning_rate = 2.319546e-06, train_mean_iou = 0.85341847, train_px_accuracy = 0.9990066 (3.354 s
+INFO:tensorflow:cross_entropy = 0.0067332713, learning_rate = 2.3185194e-06, train_mean_iou = 0.8534475, train_px_accuracy = 0.99900895 (3.355 )
+INFO:tensorflow:cross_entropy = 0.006661192, learning_rate = 2.3174916e-06, train_mean_iou = 0.85347015, train_px_accuracy = 0.9990098 (3.339 s
+INFO:tensorflow:cross_entropy = 0.00803939, learning_rate = 2.3164637e-06, train_mean_iou = 0.8535876, train_px_accuracy = 0.99900854 (3.357 se
+INFO:tensorflow:cross_entropy = 0.007964122, learning_rate = 2.315436e-06, train_mean_iou = 0.8535076, train_px_accuracy = 0.9990104 (3.358 sec
+INFO:tensorflow:cross_entropy = 0.013525433, learning_rate = 2.314409e-06, train_mean_iou = 0.8535238, train_px_accuracy = 0.99900615 (3.374 se
+INFO:tensorflow:cross_entropy = 0.009532037, learning_rate = 2.313381e-06, train_mean_iou = 0.85340625, train_px_accuracy = 0.9990042 (3.351 se
+INFO:tensorflow:cross_entropy = 0.0104536805, learning_rate = 2.3123532e-06, train_mean_iou = 0.8535462, train_px_accuracy = 0.9990012 (3.350 s
+INFO:tensorflow:global_step/sec: 2.91309
+INFO:tensorflow:cross_entropy = 0.0041180737, learning_rate = 2.311325e-06, train_mean_iou = 0.85354155, train_px_accuracy = 0.9990055 (4.127 s
+INFO:tensorflow:loss = 0.087934524, step = 84140 (34.326 sec)
+INFO:tensorflow:cross_entropy = 0.006897573, learning_rate = 2.3102975e-06, train_mean_iou = 0.85364884, train_px_accuracy = 0.9990067 (3.339 s
+INFO:tensorflow:cross_entropy = 0.011019254, learning_rate = 2.3092696e-06, train_mean_iou = 0.8538362, train_px_accuracy = 0.9990047 (3.362 se
+INFO:tensorflow:cross_entropy = 0.0056250757, learning_rate = 2.3082412e-06, train_mean_iou = 0.8539682, train_px_accuracy = 0.9990072 (3.353 s
+INFO:tensorflow:cross_entropy = 0.008535262, learning_rate = 2.3072137e-06, train_mean_iou = 0.8537372, train_px_accuracy = 0.9990058 (3.350 se
+INFO:tensorflow:cross_entropy = 0.0056050983, learning_rate = 2.3061853e-06, train_mean_iou = 0.8536984, train_px_accuracy = 0.9990072 (3.346 s
+INFO:tensorflow:cross_entropy = 0.011899998, learning_rate = 2.3051568e-06, train_mean_iou = 0.8537688, train_px_accuracy = 0.9990041 (3.344 se
+INFO:tensorflow:cross_entropy = 0.003779311, learning_rate = 2.3041284e-06, train_mean_iou = 0.85385704, train_px_accuracy = 0.9990086 (3.351 s
+INFO:tensorflow:cross_entropy = 0.0084134275, learning_rate = 2.3031005e-06, train_mean_iou = 0.8537094, train_px_accuracy = 0.99900717 (3.333 )
+INFO:tensorflow:cross_entropy = 0.021229748, learning_rate = 2.302072e-06, train_mean_iou = 0.8528584, train_px_accuracy = 0.99899304 (3.349 se
+INFO:tensorflow:global_step/sec: 2.92402
+INFO:tensorflow:cross_entropy = 0.007141137, learning_rate = 2.3010432e-06, train_mean_iou = 0.852888, train_px_accuracy = 0.99899423 (4.072 se
+INFO:tensorflow:loss = 0.090886675, step = 84240 (34.200 sec)
+INFO:tensorflow:cross_entropy = 0.0058456142, learning_rate = 2.300015e-06, train_mean_iou = 0.85282296, train_px_accuracy = 0.9989962 (3.363 s
+INFO:tensorflow:cross_entropy = 0.0074037937, learning_rate = 2.2989864e-06, train_mean_iou = 0.8528742, train_px_accuracy = 0.99899614 (3.334 )
+INFO:tensorflow:cross_entropy = 0.011649981, learning_rate = 2.2979575e-06, train_mean_iou = 0.852814, train_px_accuracy = 0.99899197 (3.346 se
+INFO:tensorflow:cross_entropy = 0.0045739505, learning_rate = 2.2969284e-06, train_mean_iou = 0.85274917, train_px_accuracy = 0.9989951 (3.350 )
+INFO:tensorflow:cross_entropy = 0.009797826, learning_rate = 2.2959002e-06, train_mean_iou = 0.85269624, train_px_accuracy = 0.9989927 (3.353 s
+INFO:tensorflow:cross_entropy = 0.00987072, learning_rate = 2.2948711e-06, train_mean_iou = 0.8527195, train_px_accuracy = 0.99899155 (3.370 se
+INFO:tensorflow:cross_entropy = 0.0075129215, learning_rate = 2.2938423e-06, train_mean_iou = 0.85299486, train_px_accuracy = 0.998992 (3.362 s
+INFO:tensorflow:cross_entropy = 0.0069952602, learning_rate = 2.292813e-06, train_mean_iou = 0.8529912, train_px_accuracy = 0.99899346 (3.346 s
+INFO:tensorflow:cross_entropy = 0.0074217655, learning_rate = 2.2917843e-06, train_mean_iou = 0.8529257, train_px_accuracy = 0.99899316 (3.363 )
+INFO:tensorflow:global_step/sec: 2.91955
+INFO:tensorflow:cross_entropy = 0.0081238, learning_rate = 2.290755e-06, train_mean_iou = 0.8529075, train_px_accuracy = 0.9989921 (4.066 sec)
+INFO:tensorflow:loss = 0.091798306, step = 84340 (34.252 sec)
+INFO:tensorflow:cross_entropy = 0.008300891, learning_rate = 2.2897257e-06, train_mean_iou = 0.8528095, train_px_accuracy = 0.9989939 (3.389 se
+INFO:tensorflow:cross_entropy = 0.01530776, learning_rate = 2.2886968e-06, train_mean_iou = 0.85253143, train_px_accuracy = 0.99898875 (3.346 s
+INFO:tensorflow:Saving checkpoints for 84370 into ./my_model/model.ckpt.
+INFO:tensorflow:Loss for final step: 0.089954875.
+INFO:tensorflow:Start evaluation.
+INFO:tensorflow:-------------------
+INFO:tensorflow:Calling model_fn.
+[None, 321, 321, 1]
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2022-06-29-18:22:45
+INFO:tensorflow:Graph was finalized.
+2022-06-30 02:22:45.918192: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2022-06-30 02:22:45.918254: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge mat:
+2022-06-30 02:22:45.918264: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0
+2022-06-30 02:22:45.918272: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N
+2022-06-30 02:22:45.918368: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0vice:GPU:0 with 10240 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:b2:00.0, compute capability: 7.5)
+INFO:tensorflow:Restoring parameters from ./my_model/model.ckpt-84370
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2022-06-29-18:22:48
+INFO:tensorflow:Saving dict for global step 84370: global_step = 84370, loss = 0.10044109, mean_iou = 0.76765484, px_accuracy = 0.99882483
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 84370: ./my_model/model.ckpt-84370
+{'loss': 0.10044109, 'mean_iou': 0.76765484, 'px_accuracy': 0.99882483, 'global_step': 84370}
