@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d219067-bd09-4740-a590-3c53917a81fa" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2Az7PqliB7aQbMjpwE1HLKYTiew" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FusionLane_test1" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="FusionLane_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TFRecord2pic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d219067-bd09-4740-a590-3c53917a81fa" name="Default Changelist" comment="" />
+      <created>1656000538748</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656000538748</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="66" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1656000621920">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="223" y="66" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1656000621920" />
+    <state x="548" y="166" key="FileChooserDialogImpl" timestamp="1656730987038">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1656730987038" />
+    <state width="745" height="208" key="GridCell.Tab.0.bottom" timestamp="1656136747861">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="745" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1656136747861" />
+    <state width="745" height="208" key="GridCell.Tab.0.center" timestamp="1656136747861">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="745" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1656136747861" />
+    <state width="745" height="208" key="GridCell.Tab.0.left" timestamp="1656136747861">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="745" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1656136747861" />
+    <state width="745" height="208" key="GridCell.Tab.0.right" timestamp="1656136747861">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="745" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1656136747861" />
+    <state x="272" y="53" key="SettingsEditor" timestamp="1656691697422">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="272" y="53" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1656691697422" />
+    <state x="461" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1656518744422">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="461" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1656518744422" />
+    <state x="814" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1656136320111">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="814" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1656136320111" />
+  </component>
+</project>
