@@ -4,7 +4,7 @@
 
 ## 网络模型介绍
 
-![image-20220703090153393](C:\Users\pc\AppData\Roaming\Typora\typora-user-images\image-20220703090153393.png)
+![](https://i.bmp.ovh/imgs/2022/07/03/15610822c355afd4.png)
 
 该项目的 CNN 网络总共由四大部分构成：
 
@@ -30,5 +30,5 @@
 
 ## 实验效果
 
-![img](file:///C:\Users\pc\Documents\Tencent Files\746530916\Image\C2C\Image2\{[``H1CPEYNEWV12~H`3EFR.png)
+![](https://i.bmp.ovh/imgs/2022/07/03/a9a5c932c5b35227.png)
 
