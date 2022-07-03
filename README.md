@@ -30,5 +30,11 @@
 
 ## 实验效果
 
+原论文的实验效果：
+
 ![](https://i.bmp.ovh/imgs/2022/07/03/a9a5c932c5b35227.png)
+
+我们的实验效果：
+
+![](https://i.bmp.ovh/imgs/2022/07/03/e195ffd15ca3df56.png)
 
